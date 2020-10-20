@@ -13,6 +13,15 @@ res.status(200)
 })
 })
 
+router.get('/:id', (req, res, next) =>{
+    let { id } = req.params;
+    Player
+    .findById(id)
+    .then((dbResponse)=>{
+    res.status(200)
+    .json(dbResponse)
+    })
+    })
 
 
 module.exports = router;

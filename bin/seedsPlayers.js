@@ -291,7 +291,7 @@ const player = [{
         },
         habilidades: ['Throw Rainbows Up', 'Por el poder del Arcoiris', 'Ilusión Multicolor'],
         descripcion_habilidades: ['Throw Rainbows Up: Ona vomita arcoiris y el enemigo al tocarlo se contagia y vomita arcoiris por doquier, se hace daño equivalente a su fuerza y le causa un bonus de 1 a 5 de daño por la deshidratanción de cosas cuquis.', 'Por el poder del Arcoiris: Ona invoca el poder del Arcoiris y todas las cosas cuquis del mundo, este turno no recibe daño del enemigo.', 'Ilusión Multicolor: Ona crea una ilusión de cosas cuquis y arcoiris, el enemigo consigue atravesar esa ilusión pero solo le hace la mitad de daño a Ona este turno.'],
-        image_url: '', //Falta foto
+        image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603223114/iron%20league/fotos%20alumnos%20cartas/Ona_bnfkmp.jpg', 
         motivación: 40,
     },
     {
