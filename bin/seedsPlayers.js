@@ -302,8 +302,10 @@ const player = [{
             habilidad: 5,
             vinculo: 1,
         },
-        habilidades: ['¡Metamorfosis!', '¡ROAR!', 'Grand Finale'],
+        habilidades: {
+        nombres: ['¡Metamorfosis!', '¡ROAR!', 'Grand Finale'],
         descripcion_habilidades: ['¡Metamorfosis!: Raiza se transforma con su traje mágico super cuqui y se abalanza sobre el enemigo, le hace daño equivalente a su fuerza y le inflije un bonus de daño de 1 a 5 puntos.', '¡ROAR!: El enemigo se asusta y no hace nada este turno debido al grito de Raiza.', 'Grand Finale: Raiza se transforma y se come al monstruo para luego regurgitarlo, le hace daño equivalente a su fuerza x2.'],
+        },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603107368/iron%20league/fotos%20alumnos%20cartas/Raiza_tvicmt.jpg',
         motivación: 40,
     },
