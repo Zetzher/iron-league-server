@@ -7,9 +7,9 @@ const player = new Schema({
     fuerza: Number,
     habilidad: Number,
     vinculo: Number,
-    habilidades: Object,
+    habilidades: {
     nombres: Array,
-    descripcion_habilidades: Array,
+    descripcion_habilidades: Array},
     image_url: String,
     motivación: Number,
 })
