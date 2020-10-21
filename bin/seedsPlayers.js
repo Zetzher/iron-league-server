@@ -152,8 +152,8 @@ const player = [{
             vinculo: 1,
         },
         habilidades: {
-        nombres: ["Break the Ice", "De oca a oca y tiro porque me toca", "¡A mis pies!"],
-        descripcion_habilidades: ['Con sus habilidades bachateras y su increíble glamour, rompe cualquier corazón cubierto en hielo, por lo que encandila al enemigo y hace que recibas la mitad de daño durante 3 turnos.', 'De oca a oca y tiro porque me toca: Esta mujer ha tenido sus altos y sus bajos entre tantos focos y giras alrededor de la galaxia, el enemigo lo sabe y por eso le da parte de su vida, le robas vida al enemigo y le haces daño equivalente a tu fuerza.', "¡A mis pies!: Ante este talento no puedes quedarte más que pasmado, por esa misma razón el enemigo no puede ante tanto talento y no te hace daño este turno."],
+        nombres: ["Break the Ice", "Fui a México, Aitana, y no lloré", "¡A mis pies!"],
+        descripcion_habilidades: ['Break the Ice: Con sus habilidades bachateras y su increíble glamour, rompe cualquier corazón cubierto en hielo, por lo que encandila al enemigo y hace que recibas la mitad de daño durante 3 turnos.', 'Fui a México, Aitana, y no lloré: Esta mujer ha tenido sus altos y sus bajos entre tantos focos y giras alrededor de la galaxia, el enemigo lo sabe y por eso le da parte de su vida, le robas vida al enemigo y le haces daño equivalente a tu habilidad.', "¡A mis pies!: Ante este talento no puedes quedarte más que pasmado, por esa misma razón el enemigo no puede ante tanto talento y no te hace daño este turno."],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603033592/iron%20league/fotos%20alumnos%20cartas/Cristina_lkvuao.jpg',
         motivación: 40,
@@ -243,7 +243,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['Hey Mike', 'Ley Divina', 'Ahora me toca a mí'],
-        descripcion_habilidades: ['Hey Mike: El enemigo cree que Jose está saludando a alguien a su espalda, se gira y Jose le arrea en toda la cabeza con su bandurria, le hace daño equivalente a su fuerza más un bonus de 1 a 5 de daño.', 'Ley Divina: Jose recuerda su etapa de abogado y le lee la cartilla de hacienda al enemigo, este empieza a llorar por los impuestos que le tocan pagar y no hace nada este turno.', 'Ahora me toca a mí: Debido a todo ese tiempo sufriendo al sufrir las copas y después de tantas comandas en bares y restaurante, Jose dice "Ahora me toca que me sirvan" y se cura vida equivalente a su habilidad al beber una cervecita fresquita.'],
+        descripcion_habilidades: ['Hey Mike: El enemigo cree que Jose está saludando a alguien a su espalda, se gira y Jose le arrea una ostia en toda la cabeza, le hace daño equivalente a su fuerza más un bonus de 1 a 5 de daño.', 'Ley Divina: Jose recuerda su etapa de abogado y le lee la cartilla de hacienda al enemigo, este empieza a llorar por los impuestos que le tocan pagar y el enemigo no hace nada este turno.', 'Ahora me toca a mí: Debido a todo ese tiempo sufriendo al sufrir las copas y después de tantas comandas en bares y restaurante, Jose dice "Ahora me toca que me sirvan" y se cura vida equivalente a su habilidad al beber una cervecita fresquita.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603052150/iron%20league/fotos%20alumnos%20cartas/Jose_ssp4iv.jpg',
         motivación: 40,
@@ -287,7 +287,7 @@ const player = [{
             vinculo: 1,
         },
         habilidades: {
-        nombres: ['Que rule el cubalitro', "¡DON'T STOP THE PARTY!", 'Me bebo hasta las copas de los árboles'],
+        nombres: ['Que rule el cubalitro', "¡DONT STOP THE PARTY!", 'Me bebo hasta las copas de los árboles'],
         descripcion_habilidades: ['Que rule el cubalitro: Claudia coge sus fichas intercambiadas en el último festial de Arctic Monkeys y al ritmo de "Do I wanna know" tira las fichas como si fueran shurikens y hace daño equivalente a su fuerza al enemigo más un bonus de 1 a 5 de daño.', '¡DON"T STOP THE PARTY!: Cari, parece que el enemigo quiere parar la fiesta, y tu no vas a permitirlo, haces que el enemigo se ponga unos cascos y se rule un cubata, este turno el enemigo no hace nada.', 'Me bebo hasta las copas de los árboles: ¡La motivación y la movida es lo tuyo, chica! Te curas vida equivalente a tu habilidad al beber un chupito de cada puesto de los garitos.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603102564/iron%20league/fotos%20alumnos%20cartas/Claudia_iv07ot.jpg',
@@ -317,8 +317,8 @@ const player = [{
             vinculo: 1,
         },
         habilidades: {
-        nombres: ['Hablo poco pero, para lo poco que hablo, hablo mucho', 'Sin Cámara', 'Código Infalible'],
-        descripcion_habilidades: ['Hablo poco pero, para lo poco que hablo, hablo mucho: Debido a que se pasó 3 semanas sin cámara, no se sabía siquiera si seguía viva, el enemigo se da un susto que se cae del culo al escuchar de pronto a Andreu y recibe daño equivalente a su fuerza más un bonus de daño de 1 a 5 puntos por el daño en el cóxis.', 'Sin Cámara: El enemigo sabe que está ahí pero al mismo tiempo no lo sabe, como el gato de schrödinger, el enemigo no sabe que hacer y no hace nada este turno.', 'Código Infalible: Andreu crea un programa para protegerse de los ataques del enemigo, el escudo de código creado dividirá el daño recibido en dos este turno.'],
+        nombres: ['Silencio Incómodo', 'Sin Cámara', 'Código Infalible'],
+        descripcion_habilidades: ['Silencio Incómodo: Debido a que se pasó 3 semanas sin cámara, no se sabía siquiera si seguía viva, el enemigo se da un susto que se cae del culo al escuchar de pronto a Andreu y recibe daño equivalente a su fuerza más un bonus de daño de 1 a 5 puntos por el daño en el cóxis.', 'Sin Cámara: El enemigo sabe que está ahí pero al mismo tiempo no lo sabe, como el gato de schrödinger, el enemigo no sabe que hacer y no hace nada este turno.', 'Código Infalible: Andreu crea un programa para protegerse de los ataques del enemigo, el escudo de código creado dividirá el daño recibido en dos este turno.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603104594/iron%20league/fotos%20alumnos%20cartas/Andreu_Sanchez_m30kt2.png',
         motivación: 40,
@@ -423,7 +423,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['Dale al Play', 'Como me toques los cascos vas a flipar', 'La Música está en mis Venas'],
-        descripcion_habilidades: ['Dale al Play: Los verdaderos poderes de Sara solo se activan cuando escucha música, las vibraciones provocadas por su aura afectan al enemigo y le hace daño equivalente a su fuerza más un bonus de 1 a 5 puntos de daño.', 'Como te toques los cascos vas a flipar: El enemigo intenta quitarle los cascos a Sara y pero esta es más rápida y lo tira al suelo, el enemigo no hace nada en este turno.', 'La Música está en mis Venas: Sara sin música no puede vivir y todos los empleados de Ironhack lo sabemos. La defensa de Sara sube y recibe la mitad de daño del enemigo este turno.'],
+        descripcion_habilidades: ['Dale al Play: Los verdaderos poderes de Sara solo se activan cuando escucha música, las vibraciones provocadas por su aura afectan al enemigo y le hace daño equivalente a su fuerza más un bonus de 1 a 5 puntos de daño.', 'Como me toques los cascos vas a flipar: El enemigo intenta quitarle los cascos a Sara y pero esta es más rápida y lo tira al suelo, el enemigo no hace nada en este turno.', 'La Música está en mis Venas: Sara sin música no puede vivir y todos los empleados de Ironhack lo sabemos. La defensa de Sara sube y recibe la mitad de daño del enemigo este turno.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603114652/iron%20league/fotos%20alumnos%20cartas/Sara_rp2bo2.jpg',
         motivación: 40,
@@ -437,8 +437,8 @@ const player = [{
             vinculo: 1,
         },
         habilidades: {
-        nombres: ['Mira mi Dentadura', 'Vente pa" ca mi niña', 'Tu Sonrisa es Mía'],
-        descripcion_habilidades: ['Mira mi Dentadura: El enemigo se deslumbra ante la enviable sonrisa blanca de Oscar y se hace a si mismo daño equivalente a su fuerza más un bonus de 1 a 5 de daño por la envidia.', 'Vente pa" ca mi niña: El enemigo no hace nada este turno debido a la sensualidad de la sonrisa de Oscar y su encantador acento Canario.', 'Tu Sonrisa es Mía: Oscar le roba puntos de vida equivalente a su habilidad al enemigo y también la blancura de sus dientes.'],
+        nombres: ['Mira mi Dentadura', 'Vente pa ca mi niña', 'Tu Sonrisa es Mía'],
+        descripcion_habilidades: ['Mira mi Dentadura: El enemigo se deslumbra ante la enviable sonrisa blanca de Oscar y se hace a si mismo daño equivalente a su fuerza más un bonus de 1 a 5 de daño por la envidia.', 'Vente pa ca mi niña: El enemigo no hace nada este turno debido a la sensualidad de la sonrisa de Oscar y su encantador acento Canario.', 'Tu Sonrisa es Mía: Oscar le roba puntos de vida equivalente a su habilidad al enemigo y también la blancura de sus dientes.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603121024/iron%20league/fotos%20alumnos%20cartas/Oscar_bcqaq3.png',
         motivación: 40,
