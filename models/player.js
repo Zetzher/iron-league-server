@@ -12,6 +12,7 @@ const player = new Schema({
     descripcion_habilidades: Array},
     image_url: String,
     motivación: Number,
+    color: Array
 })
 const Player = mongoose.model ("Player", player)
 

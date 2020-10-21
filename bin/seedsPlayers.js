@@ -23,6 +23,7 @@ const player = [{
     },
     image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603023566/iron%20league/fotos%20alumnos%20cartas/Mathilde_tktnqz.jpg',
     motivación: 40,
+    color: ['#F77806', '#3506F7']
     },
     {
         nombre: 'Andreu Martínez',
@@ -38,6 +39,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603023611/iron%20league/fotos%20alumnos%20cartas/Andreu_a3mxg6.jpg',
         motivación: 40,
+        color: ['#FF8C00', '#87CEFA']
     },
     {
         nombre: 'Samantha',
@@ -83,6 +85,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603025379/iron%20league/fotos%20alumnos%20cartas/Adria_m8i5ch.jpg',
         motivación: 40,
+        color: ['#00EEEE', '#EE00AD']
     },
     {
         nombre: 'Xavier',
@@ -98,6 +101,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603025433/iron%20league/fotos%20alumnos%20cartas/Xavier_zgbkw7.jpg',
         motivación: 40,
+        color: ['#6829DC', '#393939']
     },
     {
         nombre: 'Meritxell',
@@ -113,6 +117,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603026634/iron%20league/fotos%20alumnos%20cartas/Meritxell_wmvz9r.png',
         motivación: 40,
+        color: ['#000000', '#FF0000', '#FF8C00']
     },{
         nombre: 'Marc',
         tipo: 'El hijo bastardo de Poseidón',
@@ -142,6 +147,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603031388/iron%20league/fotos%20alumnos%20cartas/Alberto_ifzv5m.jpg',
         motivación: 40,
+        color: ['#000000 ', '#FF0000']
     },
     {
         nombre: 'Cristina',
@@ -172,6 +178,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603044180/iron%20league/fotos%20alumnos%20cartas/Erifyli_ajfuhm.jpg',
         motivación: 40,
+        color: ['#C3073F', '#4056A1']
     },
     {
         nombre: 'Christian',
@@ -187,6 +194,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603044826/iron%20league/fotos%20alumnos%20cartas/Christian_sjp4ay.jpg',
         motivación: 40,
+        color: ['#FFC300', '#1100FF']
     },
     {
         nombre: 'Eric',
@@ -202,6 +210,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603045582/iron%20league/fotos%20alumnos%20cartas/Eric_txv9at.jpg',
         motivación: 40,
+        color: ['#1411BF', '#AAAACD']
     },
     {
         nombre: 'Carla',
@@ -277,6 +286,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603101547/iron%20league/fotos%20alumnos%20cartas/Alejandro_xz6z0n.png',
         motivación: 40,
+        color: ['#00FF00', '#FF0000']
     },
     {
         nombre: 'Claudia',
@@ -307,6 +317,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603102627/iron%20league/fotos%20alumnos%20cartas/Esteve_lvidml.png',
         motivación: 40,
+        color: ['#00F7FF', '#006AFF']
     },
     {
         nombre: 'Andreu Sánchez',
@@ -337,6 +348,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603223114/iron%20league/fotos%20alumnos%20cartas/Ona_bnfkmp.jpg', 
         motivación: 40,
+        color: ['#9CDCFD', '#FD9CAB']
     },
     {
         nombre: 'Raiza',
@@ -382,6 +394,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603052101/iron%20league/fotos%20alumnos%20cartas/Marta_e7uiqg.jpg',
         motivación: 40,
+        color: ['#A8F1F0', '#A88BE7']
     },
     {
         nombre: 'Roi',
