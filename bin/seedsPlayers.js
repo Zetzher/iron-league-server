@@ -19,7 +19,7 @@ const player = [{
     },
     habilidades: {
     nombres: ['Chess Master', 'Lenguaje Francés', 'La Gracia de Mathi'],
-    descripcion_habilidades: ['Chess Master: Debido a su ingenio cultivado durante años entre jugadas de ajedrez, puede adivinar el siguiente movimiento y no recibir daño.', 'Lenguaje Francés: Sabe hablar el lenguaje más romántico del mundo, enamora al rival y el daño que recibe Mathilde se divide en dos este turno.', 'La Gracia de Mathi: Mathi cuenta un chiste malo, si hace gracia al contrincante, recibe daño igual a su fuerza más un bonus de daño aleatorio del 1 al 6, sino le hace gracia, lo recibe Mathi.'],
+    descripcion_habilidades: ['Chess Master: Debido a su ingenio cultivado durante años entre jugadas de ajedrez, puede adivinar el siguiente movimiento y no recibir daño.', 'Lenguaje Francés: Sabe hablar el lenguaje más romántico del mundo, enamora al rival y el daño que recibe Mathilde se divide en dos este turno.', 'La Gracia de Mathi: Mathi cuenta un chiste malo, si hace gracia al contrincante, recibe daño igual a su fuerza más un bonus de daño aleatorio del 1 al 5, sino le hace gracia, lo recibe Mathi.'],
     },
     image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603023566/iron%20league/fotos%20alumnos%20cartas/Mathilde_tktnqz.jpg',
     motivación: 40,
@@ -64,7 +64,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['Mia y Hulk', 'Cierre Impenetrable', 'Curación del alma'],
-        descripcion_habilidades: ['Mia y Hulk: Los perris de Jonathan atacan al enemigo haciendo daño aleatorio dos veces equivalente a su fuerza.', 'Cierre Impenetrable: Con su experiencia en futbol sala y tu cara de asombrado, Jonathan gana un escudo durante 3 turnos que disminuye el daño recibido en 2 puntos', 'Curación del alma: -Al salir de la ansiedad provocada por trabajar en Hollister, ha buscado la iluminación en ser desarrollador web y se cura de 5 puntos de vida al haberlo conseguido.'],
+        descripcion_habilidades: ['Mia y Hulk: Los perris de Jonathan atacan al enemigo haciendo daño aleatorio dos veces equivalente a su fuerza.', 'Cierre Impenetrable: Con su experiencia en futbol sala y tu cara de asombrado, Jonathan gana un escudo durante 3 turnos que disminuye el daño recibido en 2 puntos', 'Curación del alma: Al salir de la ansiedad provocada por trabajar en Hollister, ha buscado la iluminación en ser desarrollador web y, al haberlo conseguido,se cura tanto como puntos de habilidad posea.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603025137/iron%20league/fotos%20alumnos%20cartas/Jonathan_fhsz4w.jpg',
         motivación: 40,
@@ -94,7 +94,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['La cueva', 'Voz Sensual', 'Hacedor de Código'],
-        descripcion_habilidades: [`La cueva: Lo único que se ve desde su casa es su cara, los cascos y su micro, despista al enemigo y le hace 5 de daño y reduce el daño recibido en la mitad ese mismo turno.`, 'Voz Sensual: Debido a que a veces solo se escucha su voz y no se le ve la cara, el enemigo se despista y no hace nada durante ese turno.', 'Hacedor de Código: Es un genio pero también sabe programar, se restaura 10 puntos de vida debido a su ingenio para salir de los baches.'],
+        descripcion_habilidades: [`La cueva: Lo único que se ve desde su casa es su cara, los cascos y su micro, despista al enemigo, le hace daño igual a su fuerza y reduce el daño recibido en la mitad ese mismo turno.`, 'Voz Sensual: Debido a que a veces solo se escucha su voz y no se le ve la cara, el enemigo se despista y no hace nada durante ese turno.', 'Hacedor de Código: Es un genio pero también sabe programar, se restaura de vida equivalente a sus puntos de habilidad debido a su ingenio para salir de los baches.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603025433/iron%20league/fotos%20alumnos%20cartas/Xavier_zgbkw7.jpg',
         motivación: 40,
@@ -108,8 +108,8 @@ const player = [{
             vinculo: 1,
         },
         habilidades: {
-        nombres: ['Acupuntura Bélica', 'Paso de las Sombras', 'Beso de las Sombras'],
-        descripcion_habilidades: ['Acupuntura Bélica: Apuntando a los puntos vitales del rival, hace daño igual a su fuerza más un bonus de daño de entre 1 y 5.', 'Paso de las sombras: Se camufla con las sombras y pasa desapercibida ante el enemigo, lo desconcierta y no realiza su acción.', 'Beso de la Muerte: Envenena al objetivo haciéndole 2 puntos de daño cada turno durante 5 turnos, Meritxell le envenena con toda la ansiedad y estrés del bootcamp, esta habilidad no es acumulable.'],
+        nombres: ['Acupuntura Bélica', 'Paso de las Sombras', 'Beso Mortal'],
+        descripcion_habilidades: ['Acupuntura Bélica: Apuntando a los puntos vitales del rival, hace daño igual a su fuerza más un bonus de daño de entre 1 y 5.', 'Paso de las sombras: Se camufla con las sombras y pasa desapercibida ante el enemigo, lo desconcierta y no realiza su acción.', 'Beso Mortal: Envenena al objetivo haciéndole 2 puntos de daño cada turno durante 5 turnos, Meritxell le envenena con toda la ansiedad y estrés del bootcamp, esta habilidad no es acumulable.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603026634/iron%20league/fotos%20alumnos%20cartas/Meritxell_wmvz9r.png',
         motivación: 40,
@@ -168,7 +168,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['TravelData', 'Lenguaje Griego', 'Lucha de Emociones'],
-        descripcion_habilidades: ['TravelData: Programó un programa con información de todo el mundo, el enemigo recibe 5 de daño con un bonus de daño de 1 a 5 debido al miedo de que no le envíe fuera de la vía galáctica.', 'Lenguaje Griego: Con solo decirle a Erifyli "comparte tu pantalla" ya te entra un escalofrío al recordar que está todo en griego, el enemigo se estresa y no hace nada durante este turno.', 'Lucha de Emociones: El enemigo sabe por todo lo que has pasado y por eso mismo te da un abrazo, en un arrebato le robas 5 puntos de vida y te curas a ti misma esa cantidad de vida.'],
+        descripcion_habilidades: ['TravelData: Programó un programa con información de todo el mundo, el enemigo recibe 5 de daño con un bonus de daño de 1 a 5 debido al miedo de que no le envíe fuera de la vía galáctica.', 'Lenguaje Griego: Con solo decirle a Erifyli "comparte tu pantalla" ya te entra un escalofrío al recordar que está todo en griego, el enemigo se estresa y no hace nada durante este turno.', 'Lucha de Emociones: El enemigo sabe por todo lo que has pasado y por eso mismo te da un abrazo, en un arrebato le robas tantos puntos de vida como puntos de habilidad poseas y te curas a ti misma esa cantidad de vida.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603044180/iron%20league/fotos%20alumnos%20cartas/Erifyli_ajfuhm.jpg',
         motivación: 40,
@@ -215,7 +215,7 @@ const player = [{
         nombres: ['Látigo Capilar', 'Movimiento Letal', 'Escudo Capilar'],
         descripcion_habilidades: ['Látigo Capilar: Carla se arma de valor y con todo el poder de su coleta atiza al enemigo hasta que dice basta, le hace 2 veces daño equivalente a su fuerza.', 'Movimiento Letal: Te arrancas un pelo y, transformándolo en aguja, se lo lanzas en un puntos vital del enemigo, si alcanza 4 puntos vitales con acierto, matas al enemigo.', 'Escudo Capilar: Al grito de "POR EL PODER DE MI COLETA" te cubres de tu cabello formando un escudo impenetrable, el enemigo no puede hacerte daño este turno.'],
         },
-        image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603052115/iron%20league/fotos%20alumnos%20cartas/Carla_vqveca.jpg',
+        image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603295243/iron%20league/fotos%20alumnos%20cartas/Carla_yxcqtf.jpg',
         motivación: 40,
     },
     {
