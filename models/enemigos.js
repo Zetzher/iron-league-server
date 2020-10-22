@@ -8,9 +8,11 @@ stats: Object,
 fuerza: Number,
 habilidad: Number,
 vinculo: Number,
+habilidades: {
+    nombres: Array,
+    descripcion_habilidades: Array},
 image_url: String,
 motivación: Number,
-nivel: Array,
 nivelEnemigo: String
 } 
 )
