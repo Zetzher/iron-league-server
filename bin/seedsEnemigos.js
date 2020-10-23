@@ -17,7 +17,7 @@ Enemigo.collection.drop();
 
 const enemigo = [ {
         nombre: 'CSS',
-        type: 'Como uses bootstrap jamás sabrás usarme y lo vas a flipar en el futuro.',
+        tipo: 'Como uses bootstrap jamás sabrás usarme y lo vas a flipar en el futuro.',
         stats: {
             fuerza: 5,
             habilidad: 5,
@@ -32,7 +32,7 @@ const enemigo = [ {
     },
     {
         nombre: 'Javascript',
-        type: 'Ese lenguaje que te va a costar 3 meses aprender como se usa una función como no te enteres de lo que dice Dani.',
+        tipo: 'Ese lenguaje que te va a costar 3 meses aprender como se usa una función como no te enteres de lo que dice Dani.',
         stats: {
             fuerza: 5,
             habilidad: 5,
@@ -46,13 +46,13 @@ const enemigo = [ {
     },
     {
         nombre: 'HTML',
-        type: 'Parece que no sabes que son los tags, así que vengo a recordárte la sintaxis a base de palos.',
+        tipo: 'Parece que no sabes que son los tags, así que vengo a recordárte la sintaxis a base de palos.',
         stats: {
             fuerza: 5,
             habilidad: 5,
             vinculo: 5,
         },
-        habilidades: { nombres: ['¿Section?¿Id?¿Class? ¿Eso se come?', '¿Crees que así vas a subir de puesto en Google? Pardillo'],
+        habilidades: { nombres: ['¿Section?¿Id?¿Class? ¿Eso se come?', '¿Crees que así vas a subir el SEO?'],
         descripcion_habilidades: ['¿Section?¿Id?¿Class? ¿Eso se come?: Parece que no te has dado cuenta de la sintaxis, poner div a todo no es una buena práctica, por eso te llevas 5 puntos de daño.', '¿Crees que así vas a subir de puesto en Google? Pardillo: Poner nombres de clase en cada idioma existente del mundo o tener que usar keywords como: class="menuda-SeCcIon-mçs_guapa" no es que sean muy válidas, por eso recibes 3 puntos de daño.'],
         }, image_url: "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603042855/iron%20league/fotos%20enemigos%20cartas/html_fm51zr.jpg",
         motivación: 15,
@@ -60,7 +60,7 @@ const enemigo = [ {
     },
     {
         nombre: 'Handlebars',
-        type: 'Ese bigote que lo odias al empezar el segundo módulo y lo sigues odiando al final del mismo.',
+        tipo: 'Ese bigote que lo odias al empezar el segundo módulo y lo sigues odiando al final del mismo.',
         stats: {
             fuerza: 10,
             habilidad: 10,
@@ -75,7 +75,7 @@ const enemigo = [ {
 },
 {
     nombre: 'Node.js',
-    type: '¿No querías ser backend developer? Pues te vas a cagar.',
+    tipo: '¿No querías ser backend developer? Pues te vas a cagar.',
     stats: {
         fuerza: 10,
         habilidad: 10,
@@ -90,7 +90,7 @@ const enemigo = [ {
 },
 {
     nombre: 'Leandro',
-    type: 'El señor de los Mates',
+    tipo: 'El señor de los Mates',
     stats: {
         fuerza: 15,
         habilidad: 15,
@@ -120,7 +120,7 @@ const enemigo = [ {
 },
 {
     nombre: 'Julián',
-    type: 'Ese TA que siempre habla súper intenso.',
+    tipo: 'Ese TA que siempre habla súper intenso.',
     stats: {
         fuerza: 15,
         habilidad: 15,
@@ -135,7 +135,7 @@ const enemigo = [ {
 },
 {
     nombre: 'React.js',
-    type: 'Pasar información, programar a tu aire, paquetes que te hacen de todo, te enfrentas a una de las últimas pruebas, enjoy it.',
+    tipo: 'Pasar información, programar a tu aire, paquetes que te hacen de todo, te enfrentas a una de las últimas pruebas, enjoy it.',
     stats: {
         fuerza: 15,
         habilidad: 15,
@@ -152,7 +152,7 @@ const enemigo = [ {
 
     {
         nombre: 'Daniel',
-        type: 'The Sensillator, The Real Panther, La Águila Real, El Tigre de Vallecas, The Boss',
+        tipo: 'The Sensillator, The Real Panther, La Águila Real, El Tigre de Vallecas, The Boss',
         stats: {
             fuerza: 20,
             habilidad: 20,

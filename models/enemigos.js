@@ -3,7 +3,7 @@ const Schema = mongoose.Schema
 const enemigos = new Schema({
 
 nombre: String,
-type: String,
+tipo: String,
 stats: Object,
 fuerza: Number,
 habilidad: Number,
