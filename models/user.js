@@ -16,9 +16,7 @@ const user = new Schema({
     required: true,
     unique: true,
   },
-  players: [{
-    type: Schema.Types.ObjectId, ref: "Player"
-  }],
+  personajes: Array,
 });
 const User = mongoose.model("User", user);
 

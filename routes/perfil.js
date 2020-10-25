@@ -6,6 +6,7 @@ const uploadPhoto = require("../cloudinary/cloudinary")
 //POST
 router.get("/", (req, res, next) => {
   const userId = req.session.currentUser._id;
+  console.log(userId)
   User.findById(userId)
     .then((dbResponse) => {
       res.status(200).json(dbResponse);
