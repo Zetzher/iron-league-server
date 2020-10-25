@@ -105,7 +105,7 @@ const enemigo = [ {
 },
 {
     nombre: 'Marina',
-    type: 'La hacedora de Paz',
+    tipo: 'La Hacedora de Paz',
     stats: {
         fuerza: 15,
         habilidad: 15,
