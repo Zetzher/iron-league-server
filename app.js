@@ -68,15 +68,17 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 
-var index = require('./routes/index');
-var signup = require ('./routes/signup')
-var login = require ('./routes/login')
-var logout = require ('./routes/logout')
-var remove = require ('./routes/remove')
-var perfil = require ('./routes/perfil')
-var players = require ('./routes/player')
-var enemigos = require ('./routes/enemigos')
-//var chat = require ('./routes/chat')
+let index = require('./routes/index');
+let signup = require ('./routes/signup');
+let login = require ('./routes/login');
+let logout = require ('./routes/logout');
+let remove = require ('./routes/remove');
+let perfil = require ('./routes/perfil');
+let players = require ('./routes/player');
+let enemigos = require ('./routes/enemigos');
+let user = require("./routes/user");
+
+//let chat = require ('./routes/chat')
 
 
 
@@ -88,6 +90,7 @@ app.use ('/logout', logout)
 app.use ('/perfil', perfil)
 app.use ('/enemigos', enemigos)
 app.use ('/players', players)
+app.use ("/user", user)
 // app.use ('/chat', chat)
 
 
