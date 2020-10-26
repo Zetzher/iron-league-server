@@ -16,7 +16,7 @@ const user = new Schema({
     required: true,
     unique: true,
   },
-  personaje: Object,
+  personaje: Array,
 });
 const User = mongoose.model("User", user);
 
