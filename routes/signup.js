@@ -34,6 +34,7 @@ router.post(
           res
             .status(200) //  OK
             .json(newUser);
+            
         }
       } catch (error) {
         next(error);

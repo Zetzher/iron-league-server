@@ -18,7 +18,7 @@ const player = [{
         vinculo: 1,
     },
     habilidades: {
-    nombres: ['Chess Master', 'Lenguaje Francés', 'La Gracia de Mathi', 'Aumentar Vínculo'],
+    nombres: ['Chess Master. (Bloqueas el Daño)', 'Lenguaje Francés, (Daño / 2)', 'La Gracia de Mathi. (50% probabilidad)', 'Aumentar Vínculo'],
     descripcion_habilidades: ['Chess Master: Debido a su ingenio cultivado durante años entre jugadas de ajedrez, puede adivinar el siguiente movimiento y no recibir daño.', 'Lenguaje Francés: Sabe hablar el lenguaje más romántico del mundo, enamora al rival y el daño que recibe Mathilde se divide en dos este turno.', 'La Gracia de Mathi: Mathi cuenta un chiste malo, si hace gracia al contrincante, recibe daño igual a su fuerza más un bonus de daño aleatorio del 1 al 5, sino le hace gracia, lo recibe Mathi.'],
     },
     image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603355899/iron%20league/fotos%20alumnos%20cartas/Mathilde_i8fhqt.png',
@@ -34,7 +34,7 @@ const player = [{
             vinculo: 1,
         },
         habilidades: {
-        nombres: ['Kobold', 'Amor Paternal', 'Evolución Inquisitiva', 'Aumentar Vínculo'],
+        nombres: ['Kobold. (Aturdido 2 turnos)', 'Amor Paternal. (Daño: fuerza + bonus)', 'Evolución Inquisitiva. (Cura: 5 - 10 puntos)', 'Aumentar Vínculo'],
         descripcion_habilidades: ['Kobold: Podría programar tu vida si quisiera, pero esto es un juego, así que el enemigo solo se queda pasmado ante su habilidad y no hace nada durante 2 turnos.', 'Amor Paternal: Junto a su hija, Andreu programa un código y su hija lo hechiza, recibe daño igual a su fuerza más un bonus de 1 a 5 extra al enemigo.', 'Evolución Inquisitiva: Con los años de experiencia en la vida y en su entorno laboral, Andreu a subido de grado y eso le permite ser más astuto y más sabio cada día, con lo que se cura en salud y gana de 5 a 10 puntos de vida'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603023611/iron%20league/fotos%20alumnos%20cartas/Andreu_a3mxg6.jpg',
@@ -50,7 +50,7 @@ const player = [{
             vinculo: 1,
         },
         habilidades: {
-        nombres: ['Diva', 'Abanico de Idiomas', 'Flash de la Fama', 'Aumentar Vínculo'],
+        nombres: ['Diva, (Daño: Fuerza, Robo de Vida)', 'Abanico de Idiomas. (Indestructible 2 turnos)', 'Flash de la Fama. (Daño: Tu vida - 1/3)', 'Aumentar Vínculo'],
         descripcion_habilidades: ['Diva: Su DIVISMO asombra a cualquiera que la vea, es por eso que el enemigo vendería su vida a cambio de una foto suya, Diva roba vida al contrincante recibiendo daño igual a su fuerza', 'Abanico de Idiomas: Sabe entender hasta los gestos del enemigo por su sabiduría mundana en los variados lenguajes, tanto conocidos como desconocidos, escucha los susurros del enemigo y no reciba daño durante 2 turnos', 'Flash de la Fama: Consume un tercio de su vida actual redondeado hacia abajo para quitar a través del flash de su cámara Reflex parte del DIVISMO del contrincante, esta habilidad le hace daño al contrincante equivalente a los puntos de vida perdidos.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603023709/iron%20league/fotos%20alumnos%20cartas/Samantha_g4ftum.jpg',
@@ -66,7 +66,7 @@ const player = [{
             vinculo: 1,
         },
         habilidades: {
-        nombres: ['Mia y Hulk', 'Cierre Impenetrable', 'Curación del alma', 'Aumentar Vínculo'],
+        nombres: ['Mia y Hulk, (Daño: 1 - Fuerza x 2)', 'Cierre Impenetrable, (Daño recibido : / 2 , 3 turnos)', 'Curación del alma. (Curación: Habilidad)', 'Aumentar Vínculo'],
         descripcion_habilidades: ['Mia y Hulk: Los perris de Jonathan atacan al enemigo haciendo daño aleatorio dos veces equivalente a su fuerza.', 'Cierre Impenetrable: Con su experiencia en futbol sala y tu cara de asombrado, Jonathan gana un escudo durante 3 turnos que disminuye el daño recibido por la mitad.', 'Curación del alma: Al salir de la ansiedad provocada por trabajar en Hollister, ha buscado la iluminación en ser desarrollador web y, al haberlo conseguido,se cura tanto como puntos de habilidad posea.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603025137/iron%20league/fotos%20alumnos%20cartas/Jonathan_fhsz4w.jpg',
@@ -82,7 +82,7 @@ const player = [{
             vinculo: 1,
         },
         habilidades: {
-        nombres: ['Master of Games', 'Lenguaje Madrileño', 'Simpatía y amistad', 'Aumentar Vínculo'],
+        nombres: ['Master of Games. (Daño: Fuerza)', 'Lenguaje Madrileño. (Aturdido: 1 turno)', 'Simpatía y amistad', 'Aumentar Vínculo'],
         descripcion_habilidades: ['Master of Games: Con su experiencia en videojuegos, puede hacer y deshacer el código de Iron League, pero estaría muy OP y por eso el enemigo recibe daño igual a tu fuerza.', 'Lenguaje Madrileño: Al acabar su primer proyecto, no solo pudo hacer que los demás aprendiéramos Madrileño, si no que el enemigo también y ahora es inentendible, por lo que no puede realizar ninguna habilidad por 1 turno.', "Simpatía y amistad: No nos vamos a engañar, Adrià es un chico mu' majo y eso le hace el yerno ideal para cualquier suegra, se camela al enemigo al ritmo de su labia y mientras se cura equivalente a su habilidad."],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603025379/iron%20league/fotos%20alumnos%20cartas/Adria_m8i5ch.jpg',
