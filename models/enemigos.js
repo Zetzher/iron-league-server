@@ -13,7 +13,8 @@ habilidades: {
     descripcion_habilidades: Array},
 image_url: String,
 motivación: Number,
-nivelEnemigo: String
+nivelEnemigo: String,
+statsGanados: Number
 } 
 )
 const Enemigos = mongoose.model ("Enemigos", enemigos)
