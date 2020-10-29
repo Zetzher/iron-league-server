@@ -17,6 +17,10 @@ const user = new Schema({
     unique: true,
   },
   personaje: Array,
+  facilKill: Number,
+  normalKill: Number,
+  dificilKill: Number,
+  daniKill: Number,
 });
 const User = mongoose.model("User", user);
 

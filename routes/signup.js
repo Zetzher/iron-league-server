@@ -28,7 +28,7 @@ router.post(
           // en caso contratio, si el usuario no existe, hace hash del password y crea un nuevo usuario en la BD
           const salt = bcrypt.genSaltSync(saltRounds);
           const hashPass = bcrypt.hashSync(password, salt);
-          const newUser = await User.create({ email, password: hashPass});
+          const newUser = await User.create({ email, password: hashPass, facilKill: 0, normalKill: 0, dificilKill: 0, daniKill: 0});
           // luego asignamos el nuevo documento user a req.session.currentUser y luego enviamos la respuesta en json
           req.session.currentUser = newUser;
           res
