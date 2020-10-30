@@ -23,7 +23,8 @@ const player = [{
     },
     image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603355899/iron%20league/fotos%20alumnos%20cartas/Mathilde_i8fhqt.png',
     motivación: 40,
-    color: ['#F77806', '#3506F7']
+    color: ['#F77806', '#3506F7'],
+    carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604100385/iron%20league/fondos%20juegos%20favoritos/mathilde-pokemon_qj3wjh.png'
     },
     {
         nombre: 'Andreu Martínez',
@@ -55,7 +56,8 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603023709/iron%20league/fotos%20alumnos%20cartas/Samantha_g4ftum.jpg',
         motivación: 40,
-        color: ['#186868', '#FFFFFF']
+        color: ['#186868', '#FFFFFF'],
+        carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604100699/iron%20league/fondos%20juegos%20favoritos/samantha-mortalkombat_ubnwzw.jpg'
     },
     {
         nombre: 'Jonathan',
@@ -119,7 +121,8 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603026634/iron%20league/fotos%20alumnos%20cartas/Meritxell_wmvz9r.png',
         motivación: 40,
-        color: ['#3D3D3D', '#FF0000', '#FF8C00']
+        color: ['#3D3D3D', '#FF0000', '#FF8C00'],
+        carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604100487/iron%20league/fondos%20juegos%20favoritos/meritxell-kingdomheart_hjfaeh.png'
     },{
         nombre: 'Marc',
         tipo: 'El hijo bastardo de Poseidón',
@@ -150,7 +153,8 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603031388/iron%20league/fotos%20alumnos%20cartas/Alberto_ifzv5m.jpg',
         motivación: 40,
-        color: ['#3D3D3D', '#FF0000']
+        color: ['#3D3D3D', '#FF0000'],
+        carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604089360/iron%20league/fondos%20juegos%20favoritos/alberto-supermariobros_zyuxzv.jpg'
     },
     {
         nombre: 'Cristina',
@@ -198,7 +202,8 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603044826/iron%20league/fotos%20alumnos%20cartas/Christian_sjp4ay.jpg',
         motivación: 40,
-        color: ['#FFC300', '#1100FF']
+        color: ['#FFC300', '#1100FF'],
+        carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604089441/iron%20league/fondos%20juegos%20favoritos/christian-finalfantasy_u25mqz.jpg'
     },
     {
         nombre: 'Eric',
@@ -214,7 +219,8 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603045582/iron%20league/fotos%20alumnos%20cartas/Eric_txv9at.jpg',
         motivación: 40,
-        color: ['#1411BF', '#AAAACD']
+        color: ['#1411BF', '#AAAACD'],
+        carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604089622/iron%20league/fondos%20juegos%20favoritos/eric-supersmashbros_ncu0qv.png'
     },
     {
         nombre: 'Carla',
@@ -246,11 +252,12 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603052137/iron%20league/fotos%20alumnos%20cartas/Carlos_rpnru2.png',
         motivación: 40,
-        color: ['#1C2B2D', '#3D7EA6']
+        color: ['#1C2B2D', '#3D7EA6'],
+        carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604089302/iron%20league/fondos%20juegos%20favoritos/carlos-metalgear_gwfzxm.jpg'
     },
     {
         nombre: 'Jose',
-        tipo: 'El Joker',
+        tipo: 'El Pepelu',
         stats: {
             fuerza: 5,
             habilidad: 5,
@@ -262,7 +269,8 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603052150/iron%20league/fotos%20alumnos%20cartas/Jose_ssp4iv.jpg',
         motivación: 40,
-        color: ['#43E634', '#FCCE1B']
+        color: ['#43E634', '#FCCE1B'],
+        image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604089509/iron%20league/fondos%20juegos%20favoritos/joseluis-bandicoot_uqs4gz.jpg'
     },
     {
         nombre: 'Adrián',
@@ -310,7 +318,8 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603102564/iron%20league/fotos%20alumnos%20cartas/Claudia_iv07ot.jpg',
         motivación: 40,
-        color: ['#5CC8A9', '#B372DB']
+        color: ['#5CC8A9', '#B372DB'],
+        carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604100730/iron%20league/fondos%20juegos%20favoritos/alejandro-dragonball_wl0m7l.jpg'
     },
     {
         nombre: 'Esteve',
@@ -326,7 +335,8 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603102627/iron%20league/fotos%20alumnos%20cartas/Esteve_lvidml.png',
         motivación: 40,
-        color: ['#00F7FF', '#006AFF']
+        color: ['#00F7FF', '#006AFF'],
+        carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604100611/iron%20league/fondos%20juegos%20favoritos/esteve-worldwarcraft_mni6vv.jpg'
     },
     {
         nombre: 'Andreu Sánchez',
@@ -358,7 +368,8 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603356318/iron%20league/fotos%20alumnos%20cartas/Ona_w7xvqk.png', 
         motivación: 40,
-        color: ['#9CDCFD', '#FD9CAB']
+        color: ['#9CDCFD', '#FD9CAB'],
+        carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604100666/iron%20league/fondos%20juegos%20favoritos/ina-animalcrossing_rch7qj.jpg'
     },
     {
         nombre: 'Raiza',
@@ -406,7 +417,8 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603052101/iron%20league/fotos%20alumnos%20cartas/Marta_e7uiqg.jpg',
         motivación: 40,
-        color: ['#A8F1F0', '#A88BE7']
+        color: ['#A8F1F0', '#A88BE7'],
+        carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604100551/iron%20league/fondos%20juegos%20favoritos/marta-tombraider_vgvwkr.jpg'
     },
     {
         nombre: 'Roi',
