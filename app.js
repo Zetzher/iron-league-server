@@ -1,4 +1,5 @@
 require('dotenv').config();
+const colors = require('colors');
 const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
@@ -22,7 +23,7 @@ mongoose.connect(process.env.MONGODB_URI, {
 })
     .then(x => {
         console.log(
-            `Connected to Mongo! Database name: "${x.connections[0].name}"`
+            `Connected to Mongo! Database name: "${x.connections[0].name.rainbow}"`
         );
     })
     .catch(err => {
@@ -53,7 +54,7 @@ app.use(
   })
 );
   app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', 'https://iron-league.firebaseapp.com', 'http://localhost:3000',  'https://iron-league.web.app');
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000', 'https://iron-league.firebaseapp.com', 'https://iron-league.web.app');
   res.setHeader('Access-Control-Allow-Methods', 'GET, PUT, POST OPTIONS, DELETE');
   res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   res.setHeader('Access-Control-Allow-Credentials', true);
