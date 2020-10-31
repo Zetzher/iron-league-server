@@ -18,13 +18,13 @@ const player = [{
         vinculo: 1,
     },
     habilidades: {
-    nombres: ['Chess Master', 'Lenguaje Francés', 'La Gracia de Mathi.', 'Aumentar Vínculo'],
+    nombres: ['Chess Master', 'Lenguaje Francés', 'La Gracia de Mathi', 'Aumentar Vínculo'],
     descripcion_habilidades: ['Chess Master: Debido a su ingenio cultivado durante años entre jugadas de ajedrez, puede adivinar el siguiente movimiento y no recibir daño.', 'Lenguaje Francés: Sabe hablar el lenguaje más romántico del mundo, enamora al rival y el daño que recibe Mathilde se divide en dos este turno.', 'La Gracia de Mathi: Mathi cuenta un chiste malo, si hace gracia al contrincante, recibe daño igual a su fuerza más un bonus de daño aleatorio del 1 al 5, sino le hace gracia, lo recibe Mathi.'],
     },
     image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603355899/iron%20league/fotos%20alumnos%20cartas/Mathilde_i8fhqt.png',
     motivación: 40,
-    color: ['#F77806', '#3506F7'],
-    carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604100385/iron%20league/fondos%20juegos%20favoritos/mathilde-pokemon_qj3wjh.png'
+    color: ['247, 120, 6', '53, 6, 247'],
+    carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604135795/iron%20league/fondos%20juegos%20favoritos/mathilde-monkeyisland_wx2qot.jpg'
     },
     {
         nombre: 'Andreu Martínez',
@@ -40,7 +40,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603023611/iron%20league/fotos%20alumnos%20cartas/Andreu_a3mxg6.jpg',
         motivación: 40,
-        color: ['#FF8C00', '#87CEFA']
+        color: ['255, 140, 0', '135, 206, 250']
     },
     {
         nombre: 'Samantha',
@@ -56,7 +56,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603023709/iron%20league/fotos%20alumnos%20cartas/Samantha_g4ftum.jpg',
         motivación: 40,
-        color: ['#186868', '#FFFFFF'],
+        color: ['24, 104, 104', '255, 255, 255'],
         carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604100699/iron%20league/fondos%20juegos%20favoritos/samantha-mortalkombat_ubnwzw.jpg'
     },
     {
@@ -73,7 +73,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603025137/iron%20league/fotos%20alumnos%20cartas/Jonathan_fhsz4w.jpg',
         motivación: 40,
-        color: ['#3D3D3D', '#80C296']
+        color: ['61, 61, 61', '128, 194, 150']
     },
     {
         nombre: 'Adrià',
@@ -89,7 +89,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603025379/iron%20league/fotos%20alumnos%20cartas/Adria_m8i5ch.jpg',
         motivación: 40,
-        color: ['#00EEEE', '#EE00AD']
+        color: ['0, 238, 238', '238, 0, 173']
     },
     {
         nombre: 'Xavier',
@@ -100,12 +100,12 @@ const player = [{
             vinculo: 1,
         },
         habilidades: {
-        nombres: ['La cueva', 'Voz Sensual', 'Hacedor de Código', 'Aumentar Vínculo'],
-        descripcion_habilidades: [`La cueva: Lo único que se ve desde su casa es su cara, los cascos y su micro, despista al enemigo, le hace daño igual a su fuerza y reduce el daño recibido en la mitad ese mismo turno.`, 'Voz Sensual: Debido a que a veces solo se escucha su voz y no se le ve la cara, el enemigo se despista y no hace nada durante ese turno.', 'Hacedor de Código: Es un genio pero también sabe programar, se restaura de vida equivalente a sus puntos de habilidad debido a su ingenio para salir de los baches.'],
+        nombres: ['La Cueva', 'Voz Sensual', 'Hacedor de Código', 'Aumentar Vínculo'],
+        descripcion_habilidades: [`La Cueva: Lo único que se ve desde su casa es su cara, los cascos y su micro, despista al enemigo, le hace daño igual a su fuerza y reduce el daño recibido en la mitad en el siguiente turno.`, 'Voz Sensual: Debido a que a veces solo se escucha su voz y no se le ve la cara, el enemigo se despista y no hace nada durante ese turno.', 'Hacedor de Código: Es un genio pero también sabe programar, se restaura de vida equivalente a sus puntos de habilidad debido a su ingenio para salir de los baches.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603356006/iron%20league/fotos%20alumnos%20cartas/Xavier_svadlu.png',
         motivación: 40,
-        color: ['#6829DC', '#393939']
+        color: ['104, 41, 220', '57, 57, 57']
     },
     {
         nombre: 'Meritxell',
@@ -121,7 +121,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603026634/iron%20league/fotos%20alumnos%20cartas/Meritxell_wmvz9r.png',
         motivación: 40,
-        color: ['#3D3D3D', '#FF0000', '#FF8C00'],
+        color: ['61, 61, 61', '255, 0, 0', '255, 140, 0'],
         carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604100487/iron%20league/fondos%20juegos%20favoritos/meritxell-kingdomheart_hjfaeh.png'
     },{
         nombre: 'Marc',
@@ -137,7 +137,8 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603032299/iron%20league/fotos%20alumnos%20cartas/Marc_vboj4f.jpg',
         motivación: 40,
-        color: ['#189FB1', '#3D3D3D']
+        color: ['24, 159, 177', '61, 61, 61'],
+        carta_url: "https://res.cloudinary.com/dg9s4kl26/image/upload/v1604144550/iron%20league/fondos%20juegos%20favoritos/marc-doubleDragon_vlpzwy.jpg"
     },
     {
         nombre: 'Alberto',
@@ -153,7 +154,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603031388/iron%20league/fotos%20alumnos%20cartas/Alberto_ifzv5m.jpg',
         motivación: 40,
-        color: ['#3D3D3D', '#FF0000'],
+        color: ['61, 61, 61', '255, 0, 0'],
         carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604089360/iron%20league/fondos%20juegos%20favoritos/alberto-supermariobros_zyuxzv.jpg'
     },
     {
@@ -170,7 +171,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603033592/iron%20league/fotos%20alumnos%20cartas/Cristina_lkvuao.jpg',
         motivación: 40,
-        color: ['#8EDCD0', '#E17D7D']
+        color: ['142, 220, 208', '225, 125, 125']
     },
     {
         nombre: 'Erifyli',
@@ -186,7 +187,8 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603044180/iron%20league/fotos%20alumnos%20cartas/Erifyli_ajfuhm.jpg',
         motivación: 40,
-        color: ['#C3073F', '#4056A1']
+        color: ['195, 7, 63', '64, 86, 161'],
+        carta_url: "https://res.cloudinary.com/dg9s4kl26/image/upload/v1604135598/iron%20league/fondos%20juegos%20favoritos/erifyli-warioland_poqwcl.jpg"
     },
     {
         nombre: 'Christian',
@@ -202,7 +204,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603044826/iron%20league/fotos%20alumnos%20cartas/Christian_sjp4ay.jpg',
         motivación: 40,
-        color: ['#FFC300', '#1100FF'],
+        color: ['255, 195, 0', '17, 0, 255'],
         carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604089441/iron%20league/fondos%20juegos%20favoritos/christian-finalfantasy_u25mqz.jpg'
     },
     {
@@ -219,7 +221,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603045582/iron%20league/fotos%20alumnos%20cartas/Eric_txv9at.jpg',
         motivación: 40,
-        color: ['#1411BF', '#AAAACD'],
+        color: ['20, 17, 191', '170, 170, 205'],
         carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604089622/iron%20league/fondos%20juegos%20favoritos/eric-supersmashbros_ncu0qv.png'
     },
     {
@@ -236,7 +238,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603295243/iron%20league/fotos%20alumnos%20cartas/Carla_yxcqtf.jpg',
         motivación: 40,
-        color: ['#148F77', '#EC7063']
+        color: ['20, 143, 119', '236, 112, 99']
     },
     {
         nombre: 'Carlos',
@@ -252,7 +254,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603052137/iron%20league/fotos%20alumnos%20cartas/Carlos_rpnru2.png',
         motivación: 40,
-        color: ['#1C2B2D', '#3D7EA6'],
+        color: ['28, 43, 45', '61, 126, 166'],
         carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604089302/iron%20league/fondos%20juegos%20favoritos/carlos-metalgear_gwfzxm.jpg'
     },
     {
@@ -269,8 +271,8 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603052150/iron%20league/fotos%20alumnos%20cartas/Jose_ssp4iv.jpg',
         motivación: 40,
-        color: ['#43E634', '#FCCE1B'],
-        image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604089509/iron%20league/fondos%20juegos%20favoritos/joseluis-bandicoot_uqs4gz.jpg'
+        color: ['67, 230, 52', '252, 206, 27'],
+        carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604089509/iron%20league/fondos%20juegos%20favoritos/joseluis-bandicoot_uqs4gz.jpg'
     },
     {
         nombre: 'Adrián',
@@ -286,7 +288,8 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603101502/iron%20league/fotos%20alumnos%20cartas/adrian_gszxxw.jpg',
         motivación: 40,
-        color: ['#d60da3', '#282721']
+        color: ['214, 13, 163', '40, 39, 33'],
+        carta_url: "https://res.cloudinary.com/dg9s4kl26/image/upload/v1604135706/iron%20league/fondos%20juegos%20favoritos/adrian-pokemon_putdmx.jpg"
     },
     {
         nombre: 'Alejandro',
@@ -302,7 +305,8 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603101547/iron%20league/fotos%20alumnos%20cartas/Alejandro_xz6z0n.png',
         motivación: 40,
-        color: ['#00FF00', '#FF0000']
+        color: ['0, 255, 0', '255, 0, 0'],
+        carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604100730/iron%20league/fondos%20juegos%20favoritos/alejandro-dragonball_wl0m7l.jpg'
     },
     {
         nombre: 'Claudia',
@@ -318,9 +322,9 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603102564/iron%20league/fotos%20alumnos%20cartas/Claudia_iv07ot.jpg',
         motivación: 40,
-        color: ['#5CC8A9', '#B372DB'],
-        carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604100730/iron%20league/fondos%20juegos%20favoritos/alejandro-dragonball_wl0m7l.jpg'
-    },
+        color: ['92, 200, 169', '179, 114, 219'],
+        carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604139613/iron%20league/fondos%20juegos%20favoritos/claudia-monkeyisland_ckt3it.jpg'
+        },
     {
         nombre: 'Esteve',
         tipo: 'El Neo del 2020',
@@ -335,7 +339,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603102627/iron%20league/fotos%20alumnos%20cartas/Esteve_lvidml.png',
         motivación: 40,
-        color: ['#00F7FF', '#006AFF'],
+        color: ['0, 247, 255', '0, 106, 255'],
         carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604100611/iron%20league/fondos%20juegos%20favoritos/esteve-worldwarcraft_mni6vv.jpg'
     },
     {
@@ -352,7 +356,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603104594/iron%20league/fotos%20alumnos%20cartas/Andreu_Sanchez_m30kt2.png',
         motivación: 40,
-        color: ['#007777', '#610B0B']
+        color: ['0, 119, 119', '97, 11, 11']
     },
     {
         nombre: 'Ona',
@@ -368,7 +372,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603356318/iron%20league/fotos%20alumnos%20cartas/Ona_w7xvqk.png', 
         motivación: 40,
-        color: ['#9CDCFD', '#FD9CAB'],
+        color: ['156, 220, 253', '253, 156, 171'],
         carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604100666/iron%20league/fondos%20juegos%20favoritos/ina-animalcrossing_rch7qj.jpg'
     },
     {
@@ -385,7 +389,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603107368/iron%20league/fotos%20alumnos%20cartas/Raiza_tvicmt.jpg',
         motivación: 40,
-        color: ['#900C3F', '#73C6B6']
+        color: ['144, 12, 63', '115, 198, 182']
     },
     {
         nombre: 'Alexandre',
@@ -401,7 +405,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603107426/iron%20league/fotos%20alumnos%20cartas/Alexandre_vlzycm.jpg',
         motivación: 40,
-        color: ['#F7BC13', '#F2F1D3']
+        color: ['247, 188, 19', '242, 241, 211']
     },
     {
         nombre: 'Marta',
@@ -417,7 +421,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603052101/iron%20league/fotos%20alumnos%20cartas/Marta_e7uiqg.jpg',
         motivación: 40,
-        color: ['#A8F1F0', '#A88BE7'],
+        color: ['168, 241, 240', '168, 139, 231'],
         carta_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604100551/iron%20league/fondos%20juegos%20favoritos/marta-tombraider_vgvwkr.jpg'
     },
     {
@@ -434,7 +438,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603356478/iron%20league/fotos%20alumnos%20cartas/Roi_wrptzf.png',
         motivación: 40,
-        color: ['#FEF70F', '#0838EE']
+        color: ['254, 247, 15', '8, 56, 238']
     },
     {
         nombre: 'Mar',
@@ -450,7 +454,8 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603356474/iron%20league/fotos%20alumnos%20cartas/Mar_ibzsrr.png',
         motivación: 40,
-        color: ['#1C6888', '#EA777A']
+        color: ['28, 104, 136', '234, 119, 122'],
+        carta_url: "https://res.cloudinary.com/dg9s4kl26/image/upload/v1604135640/iron%20league/fondos%20juegos%20favoritos/mar-animalcrossing_p97ore.jpg"
     },
     {
         nombre: 'Sara',
@@ -466,7 +471,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603114652/iron%20league/fotos%20alumnos%20cartas/Sara_rp2bo2.jpg',
         motivación: 40,
-        color: ['#1C2B2D', '#3D7EA6']
+        color: ['28, 43, 45', '61, 126, 166']
     },
     {
         nombre: 'Oscar',
@@ -482,7 +487,7 @@ const player = [{
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603121024/iron%20league/fotos%20alumnos%20cartas/Oscar_bcqaq3.png',
         motivación: 40,
-        color: ['#3D3D3D', '#00FF00']
+        color: ['61, 61, 61', '0, 255, 0']
     }
 ]
 
