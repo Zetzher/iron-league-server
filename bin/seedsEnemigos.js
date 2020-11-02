@@ -34,9 +34,9 @@ const enemigo = [
     },
     image_url:
       "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603041543/iron%20league/fotos%20enemigos%20cartas/css_ofeh1c.png",
-    motivación: 15,
+    motivación: 30,
     nivelEnemigo: "facil",
-    statsGanados: 5,
+    statsGanados: 1,
   },
   {
     nombre: "Javascript",
@@ -56,9 +56,9 @@ const enemigo = [
     },
     image_url:
       "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603042855/iron%20league/fotos%20enemigos%20cartas/javascript_xatu1a.png",
-    motivación: 15,
+    motivación: 30,
     nivelEnemigo: "facil",
-    statsGanados: 5,
+    statsGanados: 1,
   },
   {
     nombre: "HTML",
@@ -81,9 +81,9 @@ const enemigo = [
     },
     image_url:
       "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603042855/iron%20league/fotos%20enemigos%20cartas/html_fm51zr.jpg",
-    motivación: 15,
+    motivación: 30,
     nivelEnemigo: "facil",
-    statsGanados: 5,
+    statsGanados: 1,
   },
   {
     nombre: "Handlebars",
@@ -100,15 +100,15 @@ const enemigo = [
         "Ah, que quieres hacer validaciones con DOM y tu usuario en base de datos, pues prepárate que vas a flipar",
       ],
       descripcion_habilidades: [
-        "No se te ve nada, ¿No te habrás olvidado de poner el layout?: Parece mentira que no hayas prestado atención a Dani, así que vengo yo a recordártelo, recibes daño igual a su fuerza.",
+        "No se te ve nada, ¿No te habrás olvidado de poner el layout?: Parece mentira que no hayas prestado atención a Dani, así que vengo yo a recordártelo a base de bigotazos, recibes daño igual a su fuerza.",
         "Ah, que quieres hacer validaciones con DOM y tu usuario en base de datos, pues prepárate que vas a flipar: Has querido avanzar muy rápido sin siquiera pensar en hacer algo que dieron en clase mientras tu pensabas en como sobrevivir al bootcamp, pierdes 15 de daño porque ni Handlebars te va a librar.",
       ],
     },
     image_url:
       "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603042854/iron%20league/fotos%20enemigos%20cartas/handlebars_nc4tze.png",
-    motivación: 40,
+    motivación: 60,
     nivelEnemigo: "normal",
-    statsGanados: 10,
+    statsGanados: 2,
   },
   {
     nombre: "Node.js",
@@ -130,9 +130,9 @@ const enemigo = [
     },
     image_url:
       "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603138970/iron%20league/fotos%20enemigos%20cartas/nodejs_inw34j.webp",
-    motivación: 40,
+    motivación: 60,
     nivelEnemigo: "normal",
-    statsGanados: 10,
+    statsGanados: 2,
   },
   {
     nombre: "Leandro",
@@ -149,16 +149,16 @@ const enemigo = [
         "QUE ES ESE ERROR",
       ],
       descripcion_habilidades: [
-        "El Mate Legendario: Leandro coge su mate y te da de probar, te envenena debido a que no tienes sangre del señor de los mates y pierdes 5 de vida durante 3 turnos.",
+        "El Señor de los Mates: Leandro coge su mate y te da de probar, te envenena debido a que no tienes sangre del señor de los mates y pierdes 5 de vida durante 3 turnos.",
         "Descanso de Bootcamp: Este señor casi acaba desquiciado debido al bootcamp como TA, por lo que restablece un tercio de su vida.",
         "QUE ES ESE ERROR: Debido al estrés por ser TA, ve el código de sus alumnos y al no tener su mente estable, no puede más y se ríe haciendote daño igual a su fuerza.",
       ],
     },
     image_url:
       "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603040476/iron%20league/fotos%20enemigos%20cartas/Leandro_j6uzs4.jpg",
-    motivación: 60,
+    motivación: 100,
     nivelEnemigo: "dificil",
-    statsGanados: 15,
+    statsGanados: 3,
   },
   {
     nombre: "Marina",
@@ -178,9 +178,9 @@ const enemigo = [
     },
     image_url:
       "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603040476/iron%20league/fotos%20enemigos%20cartas/Marina_mko0um.jpg",
-    motivación: 60,
+    motivación: 100,
     nivelEnemigo: "dificil",
-    statsGanados: 15,
+    statsGanados: 3,
   },
   {
     nombre: "Julián",
@@ -194,15 +194,15 @@ const enemigo = [
       nombres: ["Por el Poder de la Luna", "Labia Intensa", "Ritmo Hipster"],
       descripcion_habilidades: [
         "Por el Poder de la Luna: Ha puesto tantas veces el fondo animado de Sailor Moon que ya se sabe los movimientos para invocar el poder de la luna, y en el nombre del amor te quita vida igual a su fuerza",
-        "Labia Intensa: Lo adoras y lo odias en sintonia, te confunde y al no poder dejar de escucharlo durante un turno no le haces daño",
+        "Labia Intensa: Lo adoras y lo odias en sintonia, te confunde y al no poder dejar de escucharlo durante 3 turnos no le haces daño",
         "Ritmo Hipster: Se ha pillado unas gafas para poder trabajar pero ahora se tinta el pelo, la barba y usa las gafas como atuendo, debido a su Hipsterismo, te quita tu propio estilo y te roba vida igual a su habilidad, por lo que se cura la misma cantidad.",
       ],
     },
     image_url:
       "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603040475/iron%20league/fotos%20enemigos%20cartas/Julian_jmukcx.png",
-    motivación: 60,
+    motivación: 100,
     nivelEnemigo: "dificil",
-    statsGanados: 15,
+    statsGanados: 3,
   },
   {
     nombre: "React.js",
@@ -225,9 +225,9 @@ const enemigo = [
     },
     image_url:
       "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603043154/iron%20league/fotos%20enemigos%20cartas/react_ghixmr.png",
-    motivación: 60,
+    motivación: 130,
     nivelEnemigo: "dificil",
-    statsGanados: 15,
+    statsGanados: 3,
   },
 
   {
@@ -243,15 +243,15 @@ const enemigo = [
       nombres: ["Sensillo", "Entender a Willy", "Conocimiento de Bitcoin"],
       descripcion_habilidades: [
         "Sensillo: Revisa tu error de código y también tu alma, te dice que es sencillo pero en verdad tienes que construir un submarino, 2 moncloas, arreglar el comunismo, levantar España y erradicar el COVID, te quita vida igual a su fuerza.",
-        "Entender a Willy: Aunque The Sensillator tenga un gran intelecto, hay algo que se le escapa, y es entender a su perro Willy, por lo que te pasa el marrón y tienes que cuidarlo tu, te la mitad de daño de su fuerza y además no puedes usar una habilidad aleatoria en tu siguiente turno.",
+        "Entender a Willy: Aunque The Sensillator tenga un gran intelecto, hay algo que se le escapa, y es entender a su perro Willy, por lo que te pasa el marrón y tienes que cuidarlo tu, te la mitad de daño de su fuerza.",
         "Conocimiento de Bitcoin: Su conocimiento es tan inmenso que intenta enseñarte y lo que te genera es el estrés y la ansiedad de 10 bootcamps en solo 1 día, absorve tus emociones negativas y se cura tanto como puntos de habilidad tenga.",
       ],
     },
     image_url:
       "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603040448/iron%20league/fotos%20enemigos%20cartas/Daniel_cgr1wp.png",
-    motivación: 100,
+    motivación: 200,
     nivelEnemigo: "daniel",
-    statsGanados: 30,
+    statsGanados: 5,
   },
 ];
 
