@@ -13,7 +13,10 @@ const player = new Schema({
     image_url: String,
     motivación: Number,
     color: Array,
-    carta_url: String
+    carta_url: String,
+    anterior_asesinato:  Object,
+    asesinatos: Number,
+    amistad: Number
 })
 const Player = mongoose.model ("Player", player)
 

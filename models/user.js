@@ -21,6 +21,10 @@ const user = new Schema({
   normalKill: Number,
   dificilKill: Number,
   daniKill: Number,
+  facilVinculo: Number,
+  normalVinculo: Number,
+  dificilVinculo: Number,
+  daniVinculo: Number
 });
 const User = mongoose.model("User", user);
 

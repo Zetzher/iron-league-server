@@ -78,4 +78,65 @@ router.post("/pushKill/:id", async (req, res, next) => {
   }
 });
 
+router.post("/pushVinculo/:id", async (req, res, next) => {
+  let dificultad = req.body.dificultad;
+  let cantidadVinculo = req.body.cantidadVinculo;
+  let { id } = req.params;
+
+  switch (dificultad) {
+    case "facilVinculo":
+      try {
+        let userPush = await User.findByIdAndUpdate(id, {
+          facilVinculo: cantidadVinculo,
+        });
+        res.status(200).send(userPush);
+      } catch (err) {
+        res.status(500).send({
+          message: err,
+        });
+        console.log(err.message, "mensaje de error");
+      }
+      break;
+      case "normalVinculo":
+      try {
+        let userPush = await User.findByIdAndUpdate(id, {
+            normalVinculo: cantidadVinculo,
+        });
+        res.status(200).send(userPush);
+      } catch (err) {
+        res.status(500).send({
+          message: err,
+        });
+        console.log(err.message, "mensaje de error");
+      }
+      break;
+      case "dificilVinculo":
+      try {
+        let userPush = await User.findByIdAndUpdate(id, {
+            dificilVinculo: cantidadVinculo,
+        });
+        res.status(200).send(userPush);
+      } catch (err) {
+        res.status(500).send({
+          message: err,
+        });
+        console.log(err.message, "mensaje de error");
+      }
+      break;
+      case "daniVinculo":
+      try {
+        let userPush = await User.findByIdAndUpdate(id, {
+            daniVinculo: cantidadVinculo,
+        });
+        res.status(200).send(userPush);
+      } catch (err) {
+        res.status(500).send({
+          message: err,
+        });
+        console.log(err.message, "mensaje de error");
+      }
+      break;
+  }
+});
+
 module.exports = router;

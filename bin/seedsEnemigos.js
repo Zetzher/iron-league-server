@@ -18,9 +18,9 @@ const enemigo = [
     tipo:
       "Como uses bootstrap jamás sabrás usarme y lo vas a flipar en el futuro.",
     stats: {
-      fuerza: 5,
-      habilidad: 5,
-      vinculo: 5,
+      fuerza: 10,
+      habilidad: 4,
+      vinculo: 20,
     },
     habilidades: {
       nombres: [
@@ -43,9 +43,9 @@ const enemigo = [
     tipo:
       "Ese lenguaje que te va a costar 3 meses aprender como se usa una función como no te enteres de lo que dice Dani.",
     stats: {
-      fuerza: 5,
-      habilidad: 5,
-      vinculo: 5,
+      fuerza: 12,
+      habilidad: 6,
+      vinculo: 20,
     },
     habilidades: {
       nombres: ["¿Quieres una kata, guapo?", "Map is not a function"],
@@ -65,9 +65,9 @@ const enemigo = [
     tipo:
       "Parece que no sabes que son los tags, así que vengo a recordárte la sintaxis a base de palos.",
     stats: {
-      fuerza: 5,
-      habilidad: 5,
-      vinculo: 5,
+      fuerza: 10,
+      habilidad: 2,
+      vinculo: 20,
     },
     habilidades: {
       nombres: [
@@ -90,9 +90,9 @@ const enemigo = [
     tipo:
       "Ese bigote que lo odias al empezar el segundo módulo y lo sigues odiando al final del mismo.",
     stats: {
-      fuerza: 10,
-      habilidad: 10,
-      vinculo: 10,
+      fuerza: 20,
+      habilidad: 14,
+      vinculo: 40,
     },
     habilidades: {
       nombres: [
@@ -114,9 +114,9 @@ const enemigo = [
     nombre: "Node.js",
     tipo: "¿No querías ser backend developer? Pues te vas a cagar.",
     stats: {
-      fuerza: 10,
-      habilidad: 10,
-      vinculo: 10,
+      fuerza: 24,
+      habilidad: 18,
+      vinculo: 40,
     },
     habilidades: {
       nombres: [
@@ -130,7 +130,7 @@ const enemigo = [
     },
     image_url:
       "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603138970/iron%20league/fotos%20enemigos%20cartas/nodejs_inw34j.webp",
-    motivación: 60,
+    motivación: 50,
     nivelEnemigo: "normal",
     statsGanados: 2,
   },
@@ -138,9 +138,9 @@ const enemigo = [
     nombre: "Leandro",
     tipo: "El señor de los Mates",
     stats: {
-      fuerza: 15,
-      habilidad: 15,
-      vinculo: 15,
+      fuerza: 40,
+      habilidad: 38,
+      vinculo: 100,
     },
     habilidades: {
       nombres: [
@@ -156,7 +156,7 @@ const enemigo = [
     },
     image_url:
       "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603040476/iron%20league/fotos%20enemigos%20cartas/Leandro_j6uzs4.jpg",
-    motivación: 100,
+    motivación: 140,
     nivelEnemigo: "dificil",
     statsGanados: 3,
   },
@@ -164,9 +164,9 @@ const enemigo = [
     nombre: "Marina",
     tipo: "La Hacedora de Paz",
     stats: {
-      fuerza: 15,
-      habilidad: 15,
-      vinculo: 15,
+      fuerza: 48,
+      habilidad: 35,
+      vinculo: 100,
     },
     habilidades: {
       nombres: ["Calma y Rectitud", "Voz Pasiva-Agresiva", "Mar de Paciencia"],
@@ -178,7 +178,7 @@ const enemigo = [
     },
     image_url:
       "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603040476/iron%20league/fotos%20enemigos%20cartas/Marina_mko0um.jpg",
-    motivación: 100,
+    motivación: 133,
     nivelEnemigo: "dificil",
     statsGanados: 3,
   },
@@ -186,9 +186,9 @@ const enemigo = [
     nombre: "Julián",
     tipo: "Ese TA que siempre habla súper intenso.",
     stats: {
-      fuerza: 15,
-      habilidad: 15,
-      vinculo: 15,
+      fuerza: 38,
+      habilidad: 34,
+      vinculo: 100,
     },
     habilidades: {
       nombres: ["Por el Poder de la Luna", "Labia Intensa", "Ritmo Hipster"],
@@ -200,7 +200,7 @@ const enemigo = [
     },
     image_url:
       "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603040475/iron%20league/fotos%20enemigos%20cartas/Julian_jmukcx.png",
-    motivación: 100,
+    motivación: 140,
     nivelEnemigo: "dificil",
     statsGanados: 3,
   },
@@ -209,9 +209,9 @@ const enemigo = [
     tipo:
       "Pasar información, programar a tu aire, paquetes que te hacen de todo, te enfrentas a una de las últimas pruebas, enjoy it.",
     stats: {
-      fuerza: 15,
-      habilidad: 15,
-      vinculo: 15,
+      fuerza: 35,
+      habilidad: 49,
+      vinculo: 100,
     },
     habilidades: {
       nombres: [
@@ -225,7 +225,7 @@ const enemigo = [
     },
     image_url:
       "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603043154/iron%20league/fotos%20enemigos%20cartas/react_ghixmr.png",
-    motivación: 130,
+    motivación: 180,
     nivelEnemigo: "dificil",
     statsGanados: 3,
   },
@@ -235,9 +235,9 @@ const enemigo = [
     tipo:
       "The Sensillator, The Real Panther, La Águila Real, El Tigre de Vallecas, The Boss",
     stats: {
-      fuerza: 20,
-      habilidad: 20,
-      vinculo: 20,
+      fuerza: 50,
+      habilidad: 60,
+      vinculo: 200,
     },
     habilidades: {
       nombres: ["Sensillo", "Entender a Willy", "Conocimiento de Bitcoin"],
