@@ -19,7 +19,7 @@ const player = [{
     },
     habilidades: {
     nombres: ['Chess Master', 'Lenguaje Francés', 'La Gracia de Mathi', 'Aumentar Vínculo'],
-    descripcion_habilidades: ['Chess Master: Debido a su ingenio cultivado durante años entre jugadas de ajedrez, puede adivinar el siguiente movimiento y no recibir daño.', 'Lenguaje Francés: Sabe hablar el lenguaje más romántico del mundo, enamora al rival y el daño que recibe Mathilde se divide en dos en tus 3 siguientes turnos.', 'La Gracia de Mathi: Mathi cuenta un chiste malo, si hace gracia al contrincante, este recibe daño igual a su fuerza más un bonus de daño aleatorio del 1 al 5, sino le hace gracia, lo recibe Mathilde.'],
+    descripcion_habilidades: ['Chess Master: Debido a su ingenio cultivado durante años entre jugadas de ajedrez, puede adivinar el siguiente movimiento y no recibir daño.', 'Lenguaje Francés: Sabe hablar el lenguaje más romántico del mundo, el daño se divide en dos en tus 3 siguientes turnos.', 'La Gracia de Mathi: Mathi cuenta un chiste malo, si hace gracia al contrincante, este recibe daño igual a su fuerza más un bonus de daño aleatorio del 1 al 5, sino le hace gracia, lo recibe Mathilde.'],
     },
     image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603355899/iron%20league/fotos%20alumnos%20cartas/Mathilde_i8fhqt.png',
     motivación: 40,
@@ -36,7 +36,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['Kobold', 'Amor Paternal', 'Evolución Inquisitiva', 'Aumentar Vínculo'],
-        descripcion_habilidades: ['Kobold: Podría programar tu vida si quisiera, pero esto es un juego, así que el enemigo solo se queda pasmado ante su habilidad y no hace nada durante 2 turnos.', 'Amor Paternal: Junto a su hija, Andreu programa un código y su hija lo hechiza, recibe daño igual a su fuerza más un bonus de 1 a 5 extra al enemigo.', 'Evolución Inquisitiva: Con los años de experiencia en la vida y en su entorno laboral, Andreu a subido de grado y eso le permite ser más astuto y más sabio cada día, con lo que se cura en salud y gana de 5 a 10 puntos de vida'],
+        descripcion_habilidades: ['Kobold: Podría programar tu vida si quisiera, pero esto es un juego, así que el enemigo no hace nada durante 2 turnos.', 'Amor Paternal: Junto a su hija, Andreu programa un código y su hija lo hechiza, recibe daño igual a su fuerza más un bonus de 1 a 5 extra al enemigo.', 'Evolución Inquisitiva: Con los años de experiencia en la vida y en su entorno laboral, Andreu a subido de grado y se cura en salud y gana de 5 a 10 puntos de vida'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1604265147/iron%20league/fotos%20alumnos%20cartas/Andreu_hdpp8o.jpg',
         motivación: 40,
@@ -53,7 +53,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['Diva', 'Abanico de Idiomas', 'Flash de la Fama', 'Aumentar Vínculo'],
-        descripcion_habilidades: ['Diva: Su DIVISMO asombra a cualquiera que la vea, es por eso que el enemigo vendería su vida a cambio de una foto suya, Diva roba vida al contrincante recibiendo daño igual a su fuerza', 'Abanico de Idiomas: Sabe entender hasta los gestos del enemigo por su sabiduría mundana en los variados lenguajes, tanto conocidos como desconocidos, escucha los susurros del enemigo y no recibe daño durante 2 turnos', 'Flash de la Fama: Consume un tercio de su vida actual redondeado hacia abajo para quitar a través del flash de su cámara Reflex parte del DIVISMO del contrincante, esta habilidad le hace daño al contrincante equivalente a los puntos de vida perdidos.'],
+        descripcion_habilidades: ['Diva: Su DIVISMO asombra a cualquiera que la vea, es por eso que el enemigo vendería su vida a cambio de una foto suya, Diva roba vida al contrincante recibiendo daño igual a su fuerza', 'Abanico de Idiomas: Sabe entender hasta los gestos del enemigo por su sabiduría mundana, escucha los susurros del enemigo y no recibe daño durante 2 turnos', 'Flash de la Fama: Consume un tercio de su vida actual redondeado hacia abajo, le hace daño al contrincante equivalente a los puntos de vida perdidos.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603023709/iron%20league/fotos%20alumnos%20cartas/Samantha_g4ftum.jpg',
         motivación: 40,
@@ -70,7 +70,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['Mia y Hulk', 'Cierre Impenetrable', 'Curación del alma', 'Aumentar Vínculo'],
-        descripcion_habilidades: ['Mia y Hulk: Los perris de Jonathan atacan al enemigo haciendo daño aleatorio dos veces equivalente a su fuerza.', 'Cierre Impenetrable: Con su experiencia en futbol sala y tu cara de asombrado, Jonathan gana un escudo durante 3 turnos que disminuye el daño recibido por la mitad.', 'Curación del alma: Al salir de la ansiedad provocada por trabajar en Hollister, ha buscado la iluminación en ser desarrollador web y, al haberlo conseguido, se cura tanto como puntos de habilidad posea.'],
+        descripcion_habilidades: ['Mia y Hulk: Los perris de Jonathan atacan al enemigo haciendo daño aleatorio dos veces equivalente a su fuerza.', 'Cierre Impenetrable: Con su experiencia en futbol sala, ganas un escudo durante 3 turnos que disminuye el daño recibido por la mitad.', 'Curación del alma: Al salir de la ansiedad provocada por trabajar en Hollister, ha buscado la iluminación en ser desarrollador web y, al haberlo conseguido, se cura tanto como puntos de habilidad posea.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603025137/iron%20league/fotos%20alumnos%20cartas/Jonathan_fhsz4w.jpg',
         motivación: 40,
@@ -87,7 +87,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['Master of Games', 'Lenguaje Madrileño', 'Simpatía y amistad', 'Aumentar Vínculo'],
-        descripcion_habilidades: ['Master of Games: Con su experiencia en videojuegos, puede hacer y deshacer el código de Iron League, pero estaría muy OP y por eso el enemigo recibe daño igual a tu fuerza.', 'Lenguaje Madrileño: Al acabar su primer proyecto, no solo pudo hacer que los demás aprendiéramos Madrileño, si no que el enemigo también y ahora es inentendible, por lo que no pueden realizar ninguna habilidad por 2 turnos.', "Simpatía y amistad: No nos vamos a engañar, Adrià es un chico mu' majo y eso le hace el yerno ideal para cualquier suegra, se camela al enemigo al ritmo de su labia y mientras se cura equivalente a su habilidad."],
+        descripcion_habilidades: ['Master of Games: Con su experiencia en videojuegos, puede hacer y deshacer el código de Iron League, por eso el enemigo recibe daño igual a tu fuerza.', 'Lenguaje Madrileño: Al acabar su primer proyecto, no solo pudo hacer que los demás aprendiéramos Madrileño, si no que el enemigo también y ahora es inentendible, por lo que no pueden realizar ninguna habilidad por 2 turnos.', "Simpatía y amistad: Adrià es un chico mu' majo y eso le hace el yerno ideal para cualquier suegra, se camela al enemigo y mientras se cura equivalente a su habilidad."],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603025379/iron%20league/fotos%20alumnos%20cartas/Adria_m8i5ch.jpg',
         motivación: 40,
@@ -121,7 +121,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['Acupuntura Bélica', 'Paso de las Sombras', 'Beso Mortal', 'Aumentar Vínculo'],
-        descripcion_habilidades: ['Acupuntura Bélica: Apuntando a los puntos vitales del rival, hace daño igual a su fuerza más un bonus de daño de entre 1 y 5.', 'Paso de las sombras: Se camufla con las sombras y pasa desapercibida ante el enemigo, lo desconcierta y no te hace daño en tus dos turnos siguientes.', 'Beso Mortal: Envenena al objetivo haciéndole 2 puntos de daño cada turno durante 5 turnos, Meritxell le envenena con toda la ansiedad y estrés del bootcamp, esta habilidad no es acumulable.'],
+        descripcion_habilidades: ['Acupuntura Bélica: Apuntando a los puntos vitales del rival, hace daño igual a su fuerza más un bonus de daño de entre 1 y 5.', 'Paso de las sombras: Se camufla con las sombras y pasa desapercibida ante el enemigo, lo desconcierta y no te hace daño en tus dos turnos siguientes.', 'Beso Mortal: Envenena al objetivo haciéndole 2 puntos de daño cada turno durante 5 turnos, Meritxell le envenena con toda la ansiedad y estrés del bootcamp.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603026634/iron%20league/fotos%20alumnos%20cartas/Meritxell_wmvz9r.png',
         motivación: 40,
@@ -137,7 +137,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['Tatuaje de Amor de Madre', '¡Kraken a la vista!', 'Aviso para Navegantes', 'Aumentar Vínculo'],
-        descripcion_habilidades: ['Tatuaje de Amor de Madre: Al haber sido marinero, tiene un tatuaje en el brazo, el cual, hace al enemigo alucinar en pepinillos y lo desconcierta, haciendo que este no haga durante 2 turnos.', 'Kraken a la vista: En su adn está grabado el conocimiento marino, ni los 7 mares pueden hacer mella a este marinero/desarrollador, invoca a un kraken que conoció tomando una cerveza en una isla de vacaciones y el enemigo recibe daño igual a tu fuerza.', 'Aviso para Navegantes: Debido a los largos viajes acuáticos y vigilancia en los 7 mares, pudo establecer un vínculo con Selene, la diosa Lunar, la cual le guiaba en su trayecto y curaba su mente de la soledad mientras Marc esperaba algún día volver a casa, Marc se cura tanto como tenga de puntos de habilidad.'],
+        descripcion_habilidades: ['Tatuaje de Amor de Madre: Al haber sido marinero, tiene un tatuaje en el brazo, el cual, hace al enemigo alucinar en pepinillos y lo desconcierta, haciendo que este no haga durante 2 turnos.', 'Kraken a la vista: En su adn está grabado el conocimiento marino, invoca a un kraken que conoció tomando una cerveza en una isla de vacaciones y el enemigo recibe daño igual a tu fuerza.', 'Aviso para Navegantes: Debido a los largos viajes acuáticos y vigilancia en los 7 mares, pudo establecer un vínculo con Selene, la diosa Lunar, te curas tanto como puntos de habilidad tengas.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603032299/iron%20league/fotos%20alumnos%20cartas/Marc_vboj4f.jpg',
         motivación: 40,
@@ -154,7 +154,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['Perseverancia Antinatural', 'Parental Advisor', 'Programación anímica', 'Aumentar Vínculo'],
-        descripcion_habilidades: ['Perseverancia Antinatural: Gandalf dijo: -Un mago nunca llega tarde, Alberto Polanco. Ni pronto. Llega exactamente cuando se lo propone. (Fin de la cita). Por lo que con tu fortaleza, paciencia y perseverancia, eres capaz de bloquear el daño enemigo en tus 3 siguientes turnos.', 'Parental Advisor: Si vas a tener una niña tendrás la escopeta lista y, si es un niño, sus condones listos, independientemente de como salga tu jugada, vas a ser un padre fetén, tu enemigo lo sabe y recibe daño igual a tu fuerza más un bonus de 1 a 5 de daño extra.', 'Programación Anímica: Estoy seguro de que a parte de ser un buen padre, vas a ser un buen programador, por lo que hackeas la mente de tu enemigo y haces que el daño que recibas sea reducido a la mitad en tu siguiente turno.'],
+        descripcion_habilidades: ['Perseverancia Antinatural: Con tu fortaleza, paciencia y perseverancia, eres capaz de bloquear el daño enemigo en tus 3 siguientes turnos.', 'Parental Advisor: Si vas a tener una niña tendrás la escopeta lista y, si es un niño, sus condones listos, tu enemigo lo sabe y recibe daño igual a tu fuerza más un bonus de 1 a 5 de daño extra.', 'Programación Anímica: Estoy seguro de que vas a ser un buen programador, por lo que hackeas la mente de tu enemigo y haces que el daño que recibas sea reducido a la mitad en tu siguiente turno.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603031388/iron%20league/fotos%20alumnos%20cartas/Alberto_ifzv5m.jpg',
         motivación: 40,
@@ -171,7 +171,7 @@ const player = [{
         },
         habilidades: {
         nombres: ["Break the Ice", "Fui a México, Aitana, y no lloré", "¡A mis pies!", 'Aumentar Vínculo'],
-        descripcion_habilidades: ['Break the Ice: Con sus habilidades bachateras y su increíble glamour, rompe cualquier corazón cubierto en hielo, por lo que encandila al enemigo y hace que recibas la mitad de daño durante 3 turnos.', 'Fui a México, Aitana, y no lloré: Esta mujer ha tenido sus altos y sus bajos entre tantos focos y giras alrededor de la galaxia, el enemigo lo sabe y por eso le da parte de su vida, le robas vida al enemigo y le haces daño equivalente a tu habilidad.', "¡A mis pies!: Ante este talento no puedes quedarte más que pasmado, por esa misma razón el enemigo no puede ante tanto talento y no te hace daño en tu siguiente turno."],
+        descripcion_habilidades: ['Break the Ice: Con sus habilidades bachateras y su increíble glamour, rompe cualquier corazón cubierto en hielo, por lo que encandila al enemigo y hace que recibas la mitad de daño durante 3 turnos.', 'Fui a México, Aitana, y no lloré: Esta mujer ha tenido sus altos y sus bajos, el enemigo lo sabe y por eso le da parte de su vida, le robas vida al enemigo y le haces daño equivalente a tu habilidad.', "¡A mis pies!: Ante este talento no puedes quedarte más que pasmado, por esa misma razón el enemigo no puede ante tanto talento y no te hace daño en tu siguiente turno."],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603033592/iron%20league/fotos%20alumnos%20cartas/Cristina_lkvuao.jpg',
         motivación: 40,
@@ -205,7 +205,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['Gaming Abusivo', 'El Temblor del Pueblo', 'Perseverancia Maestra', 'Aumentar Vínculo'],
-        descripcion_habilidades: ['Gaming Abusivo: No te lo esperas, pero Christian es el típico hater que te hunde la vida como le robes los minions en el lol, hace daño equivalente a su fuerza más un bonus de 1 a 5 de daño.', 'El Temblor del Pueblo: Durante las clases parece que no está, pero si está y cuando habla los TA"s se asustan, el enemigo también y no hace nada en tu siguiente turno.', 'Perseverancia Maestra: Parece que se haya pasado el bootcamp sin pedir ayuda porque es uno de los fucking bosses de este fucking juego y por eso el enemigo te hace la mitad de daño en tus 2 siguientes turnos.'],
+        descripcion_habilidades: ['Gaming Abusivo: Christian es el típico hater que te hunde la vida como le robes los minions, hace daño equivalente a su fuerza más un bonus de 1 a 5 de daño.', 'El Temblor del Pueblo: Cuando habla los TA"s se asustan porque parece que nunca está, el enemigo también y no hace nada en tu siguiente turno.', 'Perseverancia Maestra: Parece que se haya pasado el bootcamp sin pedir ayuda y por eso el enemigo te hace la mitad de daño en tus 2 siguientes turnos.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603044826/iron%20league/fotos%20alumnos%20cartas/Christian_sjp4ay.jpg',
         motivación: 40,
@@ -324,7 +324,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['Que rule el cubalitro', "¡DONT STOP THE PARTY!", 'Me bebo hasta las copas de los árboles', 'Aumentar Vínculo'],
-        descripcion_habilidades: ['Que rule el cubalitro: Claudia coge sus fichas intercambiadas en el último festial de Arctic Monkeys y al ritmo de "Do I wanna know" tira las fichas como si fueran shurikens y hace daño equivalente a su fuerza al enemigo más un bonus de 1 a 5 de daño.', '¡DON"T STOP THE PARTY!: Cari, parece que el enemigo quiere parar la fiesta, y tu no vas a permitirlo, haces que el enemigo se ponga unos cascos y se rule un cubata, el enemigo no te hace nada en tu siguiente turno.', 'Me bebo hasta las copas de los árboles: ¡La motivación y la movida es lo tuyo, chica! Te curas vida equivalente a tu habilidad al beber un chupito de cada puesto de los garitos.'],
+        descripcion_habilidades: ['Que rule el cubalitro: Claudia coge sus fichas intercambiadas en el último festial de Arctic Monkeys y al ritmo de "Do I wanna know" lanza las fichas y hace daño equivalente a su fuerza al enemigo más un bonus de 1 a 5 de daño.', '¡DON"T STOP THE PARTY!: Parece que el enemigo quiere parar la fiesta, y tu no vas a permitirlo, haces que el enemigo se rule un cubata, no te hacen nada en tu siguiente turno.', 'Me bebo hasta las copas de los árboles: ¡La motivación y la movida es lo tuyo! Te curas vida equivalente a tu habilidad al beber un chupito de cada puesto de los garitos.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603102564/iron%20league/fotos%20alumnos%20cartas/Claudia_iv07ot.jpg',
         motivación: 40,
@@ -358,7 +358,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['Silencio Incómodo', 'Sin Cámara', 'Código Infalible', 'Aumentar Vínculo'],
-        descripcion_habilidades: ['Silencio Incómodo: Debido a que se pasó 3 semanas sin cámara, no se sabía siquiera si seguía vivo, el enemigo se da un susto que se cae del culo al escuchar de pronto a Andreu y recibe daño equivalente a su fuerza más un bonus de daño de 1 a 5 puntos por el daño en el cóxis.', 'Sin Cámara: El enemigo sabe que está ahí pero al mismo tiempo no lo sabe, como el gato de schrödinger, el enemigo no sabe que hacer y no hace nada en tu siguiente turno.', 'Código Infalible: Andreu crea un programa para protegerse de los ataques del enemigo, el escudo de código creado dividirá el daño recibido en dos en tus 2 siguientes turnos.'],
+        descripcion_habilidades: ['Silencio Incómodo: Debido a que se pasó 3 semanas sin cámara, el enemigo se da un susto que se cae del culo al escuchar de pronto a Andreu, recibe daño equivalente a su fuerza más un bonus de daño de 1 a 5 puntos.', 'Sin Cámara: El enemigo sabe que está ahí pero al mismo tiempo no lo sabe, como el gato de schrödinger, el enemigo no hace nada en tu siguiente turno.', 'Código Infalible: Andreu crea un programa para protegerse de los ataques del enemigo, el escudo de código creado dividirá el daño recibido en dos en tus 2 siguientes turnos.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603104594/iron%20league/fotos%20alumnos%20cartas/Andreu_Sanchez_m30kt2.png',
         motivación: 40,
@@ -409,7 +409,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['Llave de Ira', 'Engaño Siniestro', 'Experiencia Mundana', 'Aumentar Vínculo'],
-        descripcion_habilidades: ['Llave de Ira: Alex tira su llave inglesa y le da al geto del enemigo, le hace daño equivalente a su fuerza y un bonus de 1 a 5 puntos de daño.', 'Engaño Siniestro: El enemigo no lo sabe, pero mientras Alex le habla le ha robado el coche, su casa y su corazón, el enemigo se queda sin hacer nada en tu siguiente turno y también se ha quedado sin nada, literalmente.', 'Experiencia Mundana: Alex se las conoce todas, es muy astuto, y por eso recibirá la mitad del daño del enemigo al esquivarlo por poco en su siguiente turno.'],
+        descripcion_habilidades: ['Llave de Ira: Alex tira su llave inglesa y le da al geto del enemigo, le hace daño equivalente a su fuerza y un bonus de 1 a 5 puntos de daño.', 'Engaño Siniestro: Mientras Alex le habla le ha robado el coche y su casa, el enemigo se queda sin hacer nada en tu siguiente turno y también se ha quedado sin nada, literalmente.', 'Experiencia Mundana: Alex se las conoce todas, por eso recibirá la mitad del daño del enemigo en su siguiente turno.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603107426/iron%20league/fotos%20alumnos%20cartas/Alexandre_vlzycm.jpg',
         motivación: 40,
@@ -426,7 +426,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['Renuncia a tus derechos', 'Este grupo no entra por mi coño', 'Como te explico que no hay dispo', 'Aumentar Vínculo'],
-        descripcion_habilidades: ['Renuncia a tus derechos: Marta sabe que han incumplido el contrato con el último grupo que entro en el hotel y los echa a patadas, toda la horda del imserso va corriendo al enemigo y lo aplasta por el camino, el enemigo recibe daño equivalente a su fuerza más un bonus de 1 a 5 de daño.', 'Este grupo no entra por mi coño: El enemigo no sabe que hacer, no hay disponibilidad y no sabe donde meter ese grupo de personas que solo quieren montarla mu" jarta en el hotel,  el enemigo no te hace nada en tu siguiente turno debido a que está ocupado haciendo otras cosas.', 'Como te explico que no hay dispo: El enemigo quiere meter un grupo de 40 personas y Marta le dice que solo hay para 20, al final el enemigo consigue el cupo de 10 habitaciones dobles para su grupo y deriva los otros 20 a otro hotel, Marta recibe la mitad de daño en sus 2 siguientes turnos.'],
+        descripcion_habilidades: ['Renuncia a tus derechos: Marta sabe que han incumplido el contrato, toda la horda del imserso va corriendo al enemigo, el enemigo recibe daño equivalente a su fuerza más un bonus de 1 a 5 de daño.', 'Este grupo no entra por mi coño: No hay disponibilidad y el enemigo no sabe donde meter ese grupo de personas que solo quieren montarla, el enemigo no te hace nada en tu siguiente turno.', 'Como te explico que no hay dispo: El enemigo quiere meter un grupo de 40 personas y Marta le dice que solo hay para 20, al final el enemigo consigue el cupo de 10 habitaciones dobles para su grupo y deriva los otros 20 a otro hotel, Marta recibe la mitad de daño en sus 2 siguientes turnos.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603052101/iron%20league/fotos%20alumnos%20cartas/Marta_e7uiqg.jpg',
         motivación: 40,
