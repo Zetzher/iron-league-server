@@ -50,7 +50,7 @@ app.use(
 app.use(
   cors({
     credentials: true,
-    origin: ['http://localhost:3000', 'https://iron-league.web.app', 'https://iron-league.firebaseapp.com'],
+    origin: ['http://localhost:3000', 'https://ironleaguehack.firebaseapp.com/', 'https://ironleaguehack.web.app/'],
   })
 );
   app.use((req, res, next) => {
