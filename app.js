@@ -50,11 +50,11 @@ app.use(
 app.use(
   cors({
     credentials: true,
-    origin: ['http://localhost:3000', 'https://ironleaguehack.firebaseapp.com', 'https://ironleaguehack.web.app/'],
+    origin: ['http://localhost:3000', 'https://ironleaguehack.firebaseapp.com', 'https://ironleaguehack.web.app'],
   })
 );
   app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', 'https://ironleaguehack.firebaseapp.com', 'http://localhost:3000', 'https://ironleaguehack.web.app');
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000', 'https://ironleaguehack.firebaseapp.com', 'https://ironleaguehack.web.app');
   res.setHeader('Access-Control-Allow-Methods', 'GET, PUT, POST OPTIONS, DELETE');
   res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   res.setHeader('Access-Control-Allow-Credentials', true);
