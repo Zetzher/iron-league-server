@@ -54,7 +54,7 @@ app.use(
   })
 );
   app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', 'https://ironleaguehack.firebaseapp.com', 'http://localhost:3000',  'https://ironleaguehack.web.app');
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000', 'https://ironleaguehack.firebaseapp.com', 'https://ironleaguehack.web.app');
   res.setHeader('Access-Control-Allow-Methods', 'GET, PUT, POST OPTIONS, DELETE');
   res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   res.setHeader('Access-Control-Allow-Credentials', true);
@@ -92,6 +92,7 @@ app.use ('/perfil', perfil)
 app.use ('/enemigos', enemigos)
 app.use ('/players', players)
 app.use ("/user", user)
+// app.use ('/chat', chat)
 
 
 
