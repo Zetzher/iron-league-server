@@ -40,19 +40,7 @@ router.post("/:userId/personajePull", async (req, res, next) => {
   }
 });
 
-//Push Stats
-router.post("/:userId/pushStats", async (req, res, next) => {
-  try {
-    let id = req.params.userId;
-    let player = req.body.player;
-    let pushStats = await User.findByIdAndUpdate(id, {
-      $push: { personaje: player },
-    });
-    res.status(200).json(pushStats);
-  } catch (err) {
-    console.error(err);
-  }
-});
+
 
 //Cloudinary
 router.post("/upload", uploadPhoto.single("photo_url"), (req, res, next) => {

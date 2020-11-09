@@ -239,7 +239,7 @@ const player = [{
         },
         habilidades: {
         nombres: ['Látigo Capilar', 'Movimiento Letal', 'Escudo Capilar', 'Aumentar Vínculo'],
-        descripcion_habilidades: ['Látigo Capilar: Carla se arma de valor y con todo el poder de su coleta atiza al enemigo hasta que dice basta, le hace 2 veces daño equivalente a su fuerza.', 'Movimiento Letal: Te arrancas un pelo y, transformándolo en aguja, se lo lanzas en un puntos vital del enemigo, si alcanza 4 puntos vitales, matas al enemigo.', 'Escudo Capilar: Al grito de "POR EL PODER DE MI COLETA" te cubres de tu cabello formando un escudo impenetrable, el enemigo no puede hacerte daño en tu siguiente turno.'],
+        descripcion_habilidades: ['Látigo Capilar: Carla se arma de valor y con todo el poder de su coleta atiza al enemigo hasta que dice basta, le hace 2 veces daño equivalente a su fuerza.', 'Movimiento Letal: Te arrancas un pelo y, transformándolo en aguja, se lo lanzas en un puntos vital del enemigo, si alcanza 10 puntos vitales, matas al enemigo.', 'Escudo Capilar: Al grito de "POR EL PODER DE MI COLETA" te cubres de tu cabello formando un escudo impenetrable, el enemigo no puede hacerte daño en tu siguiente turno.'],
         },
         image_url: 'https://res.cloudinary.com/dg9s4kl26/image/upload/v1603295243/iron%20league/fotos%20alumnos%20cartas/Carla_yxcqtf.jpg',
         motivación: 40,

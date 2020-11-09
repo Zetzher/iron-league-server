@@ -16,7 +16,15 @@ const player = new Schema({
     carta_url: String,
     anterior_asesinato:  Object,
     asesinatos: Number,
-    amistad: Number
+    amistad: Number,
+    objeto: [{
+        nombre: String,
+        efecto: String,
+        motivación: Number,
+        fuerza: Number,
+        habilidad: Number,
+        vínculo: Number
+    }]
 })
 const Player = mongoose.model ("Player", player)
 
