@@ -186,11 +186,6 @@ const objeto = {
   ],
   armaduras: [
     {
-      nombre: "Corona de Espinas",
-      efecto:
-        "Cuando haces daño a un enemigo, se duplica el daño causado pero a cambio te quita 5 puntos de vida.",
-    },
-    {
       nombre: "Brazalete de Fuerza",
       efecto: "Aumenta tu fuerza base en 3 puntos.",
       stats: {
@@ -206,11 +201,6 @@ const objeto = {
       nombre: "Colmillo Partido",
       efecto: "Aumenta tu motivación base en 2 puntos.",
       motivación: 2
-    },
-    {
-      nombre: "Tocado Sagrado",
-      efecto:
-        "Las curas que realices se potencian y te curas 3 puntos de motivación extra.",
     },
     {
       nombre: "Coraje y Valor",
@@ -321,10 +311,6 @@ const objeto = {
       efecto: "Si el enemigo está envenenado, el daño que le haces se duplica.",
     },
     {
-      nombre: "Visión Futura",
-      efecto: "Si el enemigo va a hacerte daño, le restas 2 puntos de daño.",
-    },
-    {
       nombre: "Domine de Armas",
       efecto: "Tu fuerza base aumenta 3 puntos.",
       stats: { fuerza: 3 },
@@ -341,14 +327,6 @@ const objeto = {
       stats: { fuerza: 1, habilidad: 1 },
     },
     {
-      nombre: "Askaind",
-      efecto: "Las curas que realices tienen 2 puntos extras más.",
-    },
-    {
-      nombre: "Voz Redundante",
-      efecto: "Tus ataques hacen 2 puntos de daño adicional.",
-    },
-    {
       nombre: "Tarako",
       efecto: "Tu fuerza y habilidad base aumentan 1 puntos.",
       stats: {
@@ -363,10 +341,6 @@ const objeto = {
       stats: {
         fuerza: 3,
       },
-    },
-    {
-        nombre: "Hurgamentes",
-        efecto: "Tus ataques tienen un efecto perforante."
     },
     {
         nombre: "Luz de Selene",
