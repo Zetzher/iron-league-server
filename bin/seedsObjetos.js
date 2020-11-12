@@ -47,11 +47,6 @@ const objeto = {
       },
     },
     {
-      nombre: "Lengua de Serpiente",
-      efecto:
-        "Si el enemigo está envenenado, el daño causado al rival es el doble.",
-    },
-    {
       nombre: "Rencor Guardado",
       efecto: "Tu fuerza base aumenta 4 puntos.",
       stats: {
@@ -69,7 +64,7 @@ const objeto = {
     {
       nombre: "Destripavientres",
       efecto:
-        "Tu fuerza base aumenta 4 puntos y tienes un robo de vida de 3 puntos por cada ataque.",
+        "Tu fuerza base aumenta 4 puntos y ganas 3 de vida por cada acción utilizada.",
       stats: {
         fuerza: 4,
       },
@@ -307,10 +302,6 @@ const objeto = {
       stats: { vinculo: 2 },
     },
     {
-      nombre: "Carnevil",
-      efecto: "Si el enemigo está envenenado, el daño que le haces se duplica.",
-    },
-    {
       nombre: "Domine de Armas",
       efecto: "Tu fuerza base aumenta 3 puntos.",
       stats: { fuerza: 3 },
@@ -352,7 +343,7 @@ const objeto = {
     },
     {
         nombre: "Fín de la Odisea",
-        efecto: "Si el enemigo tiene como mínimo un punto vital, por cada ataque se le suma otro punto vital."
+        efecto: "Si el enemigo tiene como mínimo un punto vital, siempre se le va a sumar un punto vital."
     }
   ],
 };
