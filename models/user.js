@@ -24,7 +24,10 @@ const user = new Schema({
   facilVinculo: Number,
   normalVinculo: Number,
   dificilVinculo: Number,
-  daniVinculo: Number
+  daniVinculo: Number,
+  rutaNeutral: {type: Boolean, default: false},
+  rutaBueno: {type: Boolean, default: false},
+  rutaMalo: {type: Boolean, default: false},
 });
 const User = mongoose.model("User", user);
 

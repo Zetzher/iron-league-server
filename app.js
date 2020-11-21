@@ -78,8 +78,7 @@ let perfil = require ('./routes/perfil');
 let players = require ('./routes/player');
 let enemigos = require ('./routes/enemigos');
 let user = require("./routes/user");
-
-//let chat = require ('./routes/chat')
+let final = require("./routes/final");
 
 
 
@@ -92,7 +91,7 @@ app.use ('/perfil', perfil)
 app.use ('/enemigos', enemigos)
 app.use ('/players', players)
 app.use ("/user", user)
-// app.use ('/chat', chat)
+app.use ("/final", final)
 
 
 

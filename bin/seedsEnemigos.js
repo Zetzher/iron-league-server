@@ -140,7 +140,7 @@ const enemigo = [
     stats: {
       fuerza: 40,
       habilidad: 38,
-      vinculo: 100,
+      vinculo: 80,
     },
     habilidades: {
       nombres: [
@@ -166,7 +166,7 @@ const enemigo = [
     stats: {
       fuerza: 48,
       habilidad: 35,
-      vinculo: 100,
+      vinculo: 80,
     },
     habilidades: {
       nombres: ["Calma y Rectitud", "Voz Pasiva-Agresiva", "Mar de Paciencia"],
@@ -188,7 +188,7 @@ const enemigo = [
     stats: {
       fuerza: 38,
       habilidad: 34,
-      vinculo: 100,
+      vinculo: 80,
     },
     habilidades: {
       nombres: ["Por el Poder de la Luna", "Labia Intensa", "Ritmo Hipster"],
@@ -211,7 +211,7 @@ const enemigo = [
     stats: {
       fuerza: 35,
       habilidad: 49,
-      vinculo: 100,
+      vinculo: 80,
     },
     habilidades: {
       nombres: [
@@ -225,7 +225,7 @@ const enemigo = [
     },
     image_url:
       "https://res.cloudinary.com/dg9s4kl26/image/upload/v1603043154/iron%20league/fotos%20enemigos%20cartas/react_ghixmr.png",
-    motivación: 180,
+    motivación: 80,
     nivelEnemigo: "dificil",
     statsGanados: 3,
   },
@@ -237,7 +237,7 @@ const enemigo = [
     stats: {
       fuerza: 50,
       habilidad: 60,
-      vinculo: 200,
+      vinculo: 120,
     },
     habilidades: {
       nombres: ["Sensillo", "Entender a Willy", "Conocimiento de Bitcoin"],
