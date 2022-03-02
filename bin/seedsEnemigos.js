@@ -1,8 +1,9 @@
 const mongoose = require("mongoose");
 const Enemigo = require("../models/enemigos");
+require('dotenv').config();
 
 mongoose.connect(
-  "mongodb+srv://zetzher:SSwHFwTzZyRgWZ2L@cluster0.ww6db.mongodb.net/iron-league?retryWrites=true&w=majority",
+  process.env.MONGODB_URI,
   {
     useNewUrlParser: true,
     useCreateIndex: true,
